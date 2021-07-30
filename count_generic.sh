@@ -4,6 +4,9 @@
 #
 # First check that we have at least one argument.
 # Second argument, if passed, is a name.
+#
+# An example cron entry would be:
+# 51 10 * * * /home/renderaccount/bin/count_generic.sh 86542    Staffordshire_Way_Rushton_Spencer-Cannock_Chase
 # ------------------------------------------------------------------------------
 if [ $# -eq 0 ]
 then
