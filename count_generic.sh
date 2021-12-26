@@ -22,6 +22,10 @@ else
     then
 	echo "Change in relation components for $2 $1"
 	cat /home/renderaccount/data/ldp_$1.diff
+	echo https://www.openstreetmap.org/relation/$1
+	echo http://ra.osmsurround.org/analyzeMap?relationId=$1
+	# echo
+	# echo 'https://overpass-turbo.eu/?Q=[out:xml][timeout:2500];rel('${1}');(._;>>;);way._(changed:"2021-10-17T07:00:00Z");(._;>;);out body;out skel qt;'
     fi
     
     rm /home/renderaccount/data/ldp_$1.diff
