@@ -15,7 +15,7 @@
 # Housekeeping scripts
 #
 # These run every day.
-# These scripts are from https://github.com/SomeoneElseOSM/mod_tile/tree/zoom
+# These scripts are from https://github.com/SomeoneElseOSM/database_qa_scripts
 # ------------------------------------------------------------------------------
 #
 32 06 * * * /home/renderaccount/bin/purge_old_tiles.sh
