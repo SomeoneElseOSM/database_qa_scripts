@@ -1,0 +1,527 @@
+#
+# cron-jobs for OSM long distance paths 3
+#
+
+MAILTO=renderaccount
+
+# m h  dom mon dow  user  command
+# ------------------------------------------------------------------------------
+# Count polylines in relations.
+#
+# The logic for each relation is the same.
+# Times start 8:01 on "day 1" and continue over three days.
+# "day 1" occurs every three days starting on 2nd of month, "day 2" every 3
+# starting on 3rd, etc.
+#
+# The number of polylines in each superrelation should be 0, although some
+# mistagged relations may end up with 0 parts in the database as well,
+# rather than really no components with geometry.
+#
+# Walking routes are handled first, then horse, then bicycle.
+# Generally speaking routes are handled as part of the highest level that they
+# are part of, so a local walking route that is part of an international
+# superrelation will be handled as part of the latter.
+#
+# This script is in https://github.com/SomeoneElseOSM/database_qa_scripts
+# ------------------------------------------------------------------------------
+#
+# ------------------------------------------------------------------------------
+# Finally, cycle routes
+# ------------------------------------------------------------------------------
+00 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2763798  EV1
+01 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2763769  EV1_UK1
+02 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 7464205  EV1_IE
+03 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9113496  EV1_IE_NI
+04 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 6656263  EV1_IE_Donegal
+05 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10686635 EV1_IE_South_Donegal
+06 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10686540 EV1_IE_Sligo
+07 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10686847 EV1_IE_North_Mayo
+#
+20 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1534823  EV1_IE_GWG_SR
+21 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13663393 EV1_IE_GWG_R1
+22 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13663392 EV1_IE_GWG_R2
+#
+41 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 907247   EV1_IE_Westport
+42 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10701961 EV1_IE_North_Galway
+43 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10711501 EV1_IE_Nouth_Galway
+44 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10711500 EV1_IE_Clare
+45 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10711687 EV1_IE_Limerick
+46 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12885715 EV1_IE_Limerick_Greenway
+47 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12898270 EV1_IE_more_Limerick
+#
+00 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10788035 EV1_IE_Kerry_SR
+01 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13643256 EV1_IE_Kerry_R
+02 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12885714 EV1_IE_Kerry_P1
+03 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13502160 EV1_IE_Kerry_P2
+04 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13519014 EV1_IE_Kerry_P3
+05 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13519015 EV1_IE_Kerry_P4
+06 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13502161 EV1_IE_Kerry_P5
+#
+21 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10747073 EV1_IE_Cork
+22 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10739762 EV1_IE_Waterford
+23 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 6641108  EV1_IE_6
+24 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10784914 EV1_IE_Waterford_2
+25 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 7346402  EV1_IE_Wexford
+26 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9110288  EV1_St_Georges_Channel
+27 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9540148  EV1_UK2
+28 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9539965  EV1_English_Channel
+#
+40 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2003423  EV2
+41 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 6676627  EV2_IE
+42 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9112248  EV2_Irish_Sea
+43 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9481976  EV2_UK
+44 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479823  EV2_UK_1
+45 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479824  EV2_UK_2
+46 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479822  EV2_UK_3
+47 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479821  EV2_UK_4
+48 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479817  EV2_UK_5
+49 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479816  EV2_UK_6
+50 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479815  EV2_UK_7
+51 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5479814  EV2_UK_8
+52 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9173178  EV2_North_Sea
+#
+10 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2764534  EV5_SR
+11 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2842302  EV5_UK_SR
+12 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13512079 EV5_UK_R1
+13 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8809     EV5_UK_NCN_16
+14 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13512081 EV5_UK_R2
+15 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13502893 EV5_Channel
+#
+30 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1207220  EV12_SR
+31 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476239  EV12_SR_UK
+32 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13512083 EV12_NCN1_1
+33 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10926812 EV12_CrabW_Link
+34 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13512085 EV12_CrabW_Way
+35 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13512082 EV12_NCN1_2
+36 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13389320 EV12_NCN1_3
+37 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13420707 EV12_NCN1_4
+38 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13502894 EV12_UK_0
+39 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476068  EV12_UK_1
+40 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476067  EV12_UK_2
+41 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476113  EV12_UK_3
+42 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9473539  EV12_UK_4
+43 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476069  EV12_UK_5
+44 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476151  EV12_UK_6
+45 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476169  EV12_UK_7
+46 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476220  EV12_UK_8
+47 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9476219  EV12_UK_9
+48 10 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2767188  EV12_UK_10
+#
+00 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3578959  GSG_SR
+01 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12885716 GSG_LK
+02 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12885717 GSG_NK_1
+03 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3579135  GSG_NK_2
+04 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2709357  GSG_NK_3
+#
+# There are at least 4 NCN1s
+#
+20 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1992599  NCN1_SR1
+21 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 75880    NCN1_1
+22 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11322036 NCN1_2
+23 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11048304 NCN1_3
+24 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10773222 NCN1_4
+25 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13389321 NCN1_AL1
+#
+40 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13512084 NCN1_AL2_SR
+41 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10564433 NCN1_AL2_1
+42 11 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10926718 NCN1_AL2_2
+#
+01 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8475800  NCN1_AL4
+02 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11107866 NCN1_AL5
+03 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11805875 NCN1_AL6
+04 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8555805  NCN1_D1
+05 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10564435 NCN1_D2
+06 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8436589  NCN1_AP1
+07 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11319642 NCN1_AP2
+08 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10041318 NCN1_AP3
+09 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10589729 NCN1_EX1
+10 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8438413  NCN1_CO1
+11 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10564909 NCN1_CO2
+12 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9568075  NCN1_CO3
+13 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10582209 NCN1_CO4
+14 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5525922  NCN1_CO5
+15 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10582206 NCN1_CO6
+16 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5625434  NCN1_CO7
+17 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9844017  NCN1_CO8
+18 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9723408  NCN1_CO9
+19 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10564434 NCN1_CO10
+#
+# 2nd NCN1
+#
+30 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 75894    NCN1_R2
+31 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11769853 NCN1_AL1
+32 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11769854 NCN1_AL2
+33 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11769855 NCN1_AL3
+34 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11769852 NCN1_AL4
+#
+# 3rd NCN1
+#
+51 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9579     NCN1_R3
+52 12 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10581296 NCN1_R3_L
+#
+# 4th, 5th, 6th NCN1
+#
+11 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9622407  NCN1_R4
+12 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9067795  NCN1_R5
+13 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9067786  NCN1_R6
+#
+# 7th NCN1 (lots of subrelations)
+#
+30 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1436269  NCN1_SR7
+31 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13400191 NCN1_R7_1
+32 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10773360 NCN1_R7_1_1
+33 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9651631  NCN1_R7_1_2
+34 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10773361 NCN1_R7_1_3
+35 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9887977  NCN1_R7_1_4
+36 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9888016  NCN1_R7_1_4_1
+37 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13400190 NCN1_R7_2_SR
+38 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8438340  NCN1_R7_3
+#
+# 8th and 9th NCN1
+#
+51 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2452530  NCN1_R8
+52 13 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 254838   NCN1_R9
+#
+# NCN2 SR1 now has subrelations
+#
+10 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1950688  NCN2_1_SR
+11 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13724198 NCN2_1_1
+12 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13724261 NCN2_1_2
+13 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13725725 NCN2_1_3
+14 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13725878 NCN2_1_4
+15 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13725899 NCN2_1_5
+16 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13725970 NCN2_1_6
+17 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13726038 NCN2_1_7
+18 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13726055 NCN2_1_8
+19 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1901925  NCN2_1_9
+#
+31 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2799175  NCN2_2
+32 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1901925  NCN2_3
+#
+51 14 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 72568    NCN3
+#
+00 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1318931  NCN4_SR
+01 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1318929  NCN4_1
+02 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1318928  NCN4_2
+03 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1318930  NCN4_3
+04 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2531380  NCN4_AL1
+05 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11184369 NCN4_AL2
+06 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11184372 NCN4_AL3
+07 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11184374 NCN4_AL4
+08 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11184375 NCN4_LI1
+09 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9489717  NCN4_LI2
+10 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10877015 NCN4_LI3
+11 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9242004  NCN4_LI4
+12 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11184371 NCN4_LI5
+#
+31 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 123318   NCN5_R
+32 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9467089  NCN5_AL1
+33 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9466685  NCN5_CO1
+34 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9466687  NCN5_CO2
+35 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9466688  NCN5_CO3
+36 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9466686  NCN5_CO4
+#
+51 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12461    NCN6_R
+52 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13113454 NCN6_D1
+53 15 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9414184  NCN6_L1
+#
+11 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11017    NCN7_R
+12 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 898750   NCN7_AL1
+#
+30 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5487294  NCN8_SR
+31 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5487292  NCN8_North
+32 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5487291  NCN8_Central
+33 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5487293  NCN8_South
+#
+51 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1399870  NCN9_R
+52 16 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8028710  NCN9_L1
+#
+11 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 187014   NCN10_R
+#
+31 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 62824    NCN11_R1
+32 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5480189  NCN11_R2
+#
+51 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 32019    NCN12_R
+52 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10013734 NCN12_L1
+53 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10584890 NCN12_L2
+54 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10584889 NCN12_L3
+55 17 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10584888 NCN12_L4
+#
+10 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10582055 NCN13_SR1
+#
+20 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9765641  NCN13_1_1_SR
+21 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13477565 NCN13_1_1_1
+22 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13477564 NCN13_1_1_2
+23 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13477563 NCN13_1_1_3
+#
+31 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13389346 NCN13_1_2_R
+32 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 7000996  NCN13_1_2_L1
+33 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10582054 NCN13_1_2_L2
+
+41 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10589637 NCN13_1_3
+42 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10589636 NCN13_1_4
+43 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10589635 NCN13_1_5
+44 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10589634 NCN13_1_6
+#
+51 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9765637  NCN13_1_7_R
+52 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9765635  NCN13_1_7_AL1
+53 18 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2780628  NCN13_1_7_AL2
+#
+11 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10633693 NCN13_R2
+#
+21 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 37391    NCN14_R
+22 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 270495   NCN14_AL1
+#
+31 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 913519   NCN15_R
+32 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2326858  NCN15_P
+#
+41 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 151858   NCN16_1_R
+42 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5676436  NCN16_1_L1
+43 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10582210 NCN16_1_L2
+#
+51 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2018704  NCN16_2_SR
+52 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8031533  NCN16_2_P_1
+53 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11512374 NCN16_2_R_1
+54 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11512375 NCN16_2_R_2
+55 19 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11512376 NCN16_2_R_3
+#
+11 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5503533  NCN16_3_L
+12 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5436792  NCN16_4_L
+#
+21 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 21895    NCN17_R
+#
+31 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 21897    NCN18_R
+32 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10976871 NCN18_Great_Sto
+33 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2648756  NCN18_Proposed
+#
+50 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12179    NCN20_1_SR
+51 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11507780 NCN20_1_R1
+52 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11507781 NCN20_1_R2
+53 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11507779 NCN20_1_R3
+54 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9649613  NCN20_1_L1
+55 20 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10482848 NCN20_1_L2
+#
+01 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11546994 NCN20_2_R
+02 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11507781 NCN20_3_R
+03 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11507780 NCN20_4_R
+04 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11507779 NCN20_5_R
+#
+10 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 21909    NCN21_SR
+11 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13389352 NCN21_1
+12 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11367233 NCN21_2
+13 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11367232 NCN21_AL1
+14 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9567748  NCN21_CO1
+15 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9568075  NCN21_CO2
+#
+31 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 67578    NCN22_R1
+32 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 36311    NCN22_R2
+#
+51 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 192009   NCN23_R
+52 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 192467   NCN24_R
+53 21 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 165979   NCN25_R
+#
+11 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 76755    NCN26_R1
+12 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5390622  NCN26_P1
+13 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5291758  NCN26_R2
+#
+31 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 101440   NCN27_R1
+32 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8202909  NCN27_R2
+#
+41 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2913887  NCN28_R1
+42 22 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5364828  NCN28_R2
+#
+01 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 167055   NCN32_R
+#
+11 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 76059    NCN33_R1
+12 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5389238  NCN33_R2
+13 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5389282  NCN33_A
+#
+21 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5419856  NCN34
+#
+31 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 52310    NCN41_R1
+32 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12249466 NCN41_R2
+33 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3247699  NCN41_R3
+#
+#
+41 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 33951    NCN42_R
+42 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 115694   NCN43_R
+#
+51 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 232052   NCN44_R1
+52 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11901159 NCN44_R2
+53 23 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 223629   NCN44_P
+#
+01 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 22602    NCN45_R1
+02 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12015034 NCN45_R2
+03 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10597467 NCN45_L1
+04 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10597468 NCN45_L2
+#
+21 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 173236   NCN46_R
+22 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 18775    NCN46_P
+#
+31 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 18775    NCN47_R
+#
+41 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1566504  NCN48_R
+42 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1086463  NCN48_P
+#
+51 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2561761  NCN49_R
+52 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1228858  NCN50_R
+53 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 15020    NCN51_R
+54 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 116590   NCN52_R
+55 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 61995    NCN53_R
+56 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 37545    NCN54_R
+57 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 37734    NCN55_R
+58 00 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 156406   NCN56_R
+#
+11 01 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 92889    NCN57_R
+12 01 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 937230   NCN57_P
+13 01 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9936     NCN60_R
+#
+21 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 31640    NCN61_R
+22 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13113383 NCN61_A1
+23 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13113384 NCN61_A2
+24 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9757218  NCN61_L
+#
+30 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12763    NCN62_SR
+31 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11328996 NCN62_R01
+32 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329002 NCN62_R02
+33 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329000 NCN62_R03
+34 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11328999 NCN62_R04
+35 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11328998 NCN62_R05
+36 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11328997 NCN62_R06
+37 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329001 NCN62_R07
+38 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329003 NCN62_R08
+39 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329005 NCN62_R09
+40 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329007 NCN62_R10
+41 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329008 NCN62_R11
+42 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329010 NCN62_R12
+43 02 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11329011 NCN62_R13
+#
+01 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 61713    NCN63_R
+02 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 61899    NCN64_R
+03 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9487     NCN65_R
+04 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 17883    NCN66_R
+05 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 357215   NCN67_R
+06 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11237    NCN68_R
+07 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 37540    NCN69_R
+08 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 162996   NCN71_R
+09 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 152157   NCN72_R
+#
+11 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11361    NCN73_R1
+12 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1328554  NCN73_R2
+#
+31 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 184965   NCN74_R
+32 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 11025    NCN75_R
+33 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2519639  NCN76_R
+34 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 16513    NCN77_R
+35 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 31004    NCN78_R
+36 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 90999    NCN81_R
+37 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 116667   NCN82_R
+#
+51 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3306583  NCN84_R
+52 03 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2012352  NCN84_P
+#
+11 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2513018  NCN85_R
+12 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8150192  NCN110_R
+13 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3671295  NCN125_R
+14 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 4247284  NCN136_R
+15 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9351281  NCN137_R
+16 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2295644  NCN141_R
+17 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5240993  NCN150_R
+18 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 399930   NCN155_R
+#
+31 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1694217  NCN164_R1
+32 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9966214  NCN164_R2
+#
+41 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 28520    NCN165_R
+42 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5688973  NCN166_R
+43 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5689116  NCN167_R
+44 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2170457  NCN168_R
+45 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 10661730 NCN169_R
+46 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2598011  NCN172_R
+47 04 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1846130  NCN174_R
+#
+01 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3671326  NCN177_R
+02 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 285321   NCN177_P
+#
+31 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2648716  NCN178_R
+32 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 21894    NCN179_R
+33 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2596739  NCN183_R
+34 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 253265   NCN195_R
+35 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2519659  NCN196_R
+#
+50 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5409650  NCN208_SR
+51 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12199959 NCN208_R1
+52 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12199958 NCN208_R2_SR
+53 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12545775 NCN208_R2_R1
+54 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12545777 NCN208_R2_R2
+55 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12545776 NCN208_R2_R3
+56 05 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 12545774 NCN208_R2_R4
+#
+11 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9559159  NCN221_SR
+12 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 4026281  NCN221_R1
+13 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 4026393  NCN221_R2
+#
+21 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2646359  NCN222_R
+#
+31 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1113022  NCN223_R1
+#
+41 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 9474838  NCN223_SR2
+42 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 18272    NCN223_R2_1
+43 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1169843  NCN223_R2_2
+#
+51 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3999383  NCN224_R1
+52 06 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3987178  NCN224_R2
+#
+01 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1239517  NCN228_R
+#
+11 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2296656  NCN236_R1
+12 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5403813  NCN236_R2
+13 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3172056  NCN236_R3
+#
+21 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2831180  NCN244_R
+#
+31 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2176097  NCN246_R1
+32 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1020946  NCN246_R2
+#
+41 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13368234 NCN248_R
+42 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2986634  NCN250_R
+43 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2236644  NCN253_R
+44 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2820475  NCN256_R
+45 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5437200  NCN265_R
+46 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5437163  NCN266_R
+47 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13248353 NCN267_R
+48 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2858832  NCN270_R
+49 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2858779  NCN274_R
+50 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 99553    NCN276_R
+51 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 84177    NCN277_R
+52 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8496519  NCN278_R
+53 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5422375  NCN327_R
+54 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1493227  NCN334_R
+55 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5371783  NCN336_R
+56 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 8595349  NCN339_R
+57 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2463791  NCN344_R
+58 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 224326   NCN403_R
+59 07 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5487096  NCN411_R
+00 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 6601510  NCN422_R
+#
+11 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 7683192  NCN423_P
+12 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2065714  NCN423_R
+#
+21 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 4247567  NCN425_R
+22 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5149936  NCN426_R
+#
+31 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5869037  NCN437_P
+32 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3781722  NCN437_R
+#
+41 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 13324874 NCN440_R
+#
+51 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1970073  NCN442_R
+52 08 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 65903    NCN442_C
+#
+11 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 1761919  TPT_rcn
+12 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 5699311  Moors_to_Sea
+13 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 2172667  High_Peak_Trail_lcn
+14 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3422897  Icknield_Way_Cycle_mtb
+15 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3144936  Peddars_Way_Cycle_Route
+16 09 1,4,7,10,13,16,19,22,25,28,31 * * renderaccount /home/renderaccount/bin/count_generic.sh 3459390  Ridgeway_ncn
+#

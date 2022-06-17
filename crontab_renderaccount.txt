@@ -1,0 +1,52 @@
+# m h  dom mon dow   command
+# ------------------------------------------------------------------------------
+# Applying minutely updates
+#
+# The comment at the end of the line removes from cron while an update is in
+# progress.  Updates are typically run between 22:00 and 9:00 (ish).
+# Those scripts that require a valid database are not run until the database
+# update is complete.
+#
+# update_render.sh is in https://github.com/SomeoneElseOSM/SomeoneElse-style
+# ------------------------------------------------------------------------------
+*/5  * *   *   *     /home/renderaccount/src/mod_tile/openstreetmap-tiles-update-expire   #CONTROLLED BY update_render.sh
+#
+# ------------------------------------------------------------------------------
+# Housekeeping scripts
+#
+# These run every day.
+# These scripts are from https://github.com/SomeoneElseOSM/mod_tile/tree/zoom
+# ------------------------------------------------------------------------------
+#
+32 06 * * * /home/renderaccount/bin/purge_old_tiles.sh
+37 06 * * * /home/renderaccount/bin/report_tile_size.sh
+42 06 * * * /home/renderaccount/bin/rerender_low.sh                                       #CONTROLLED BY update_render.sh
+#
+# ------------------------------------------------------------------------------
+# Update database based on current river levels
+# Now moved to root's crontab
+# ------------------------------------------------------------------------------
+#
+# ------------------------------------------------------------------------------
+# Count various multipolygon relations.
+#
+# The selection in each script is slightly different
+# These scripts are from https://github.com/SomeoneElseOSM/database_qa_scripts
+# ------------------------------------------------------------------------------
+#
+47 06 * * * /home/renderaccount/bin/count_nationalparks_id.sh                             #CONTROLLED BY update_render.sh
+52 06 * * * /home/renderaccount/bin/count_counties_id.sh                                  #CONTROLLED BY update_render.sh
+57 06 * * * /home/renderaccount/bin/count_baronies_id.sh                                  #CONTROLLED BY update_render.sh
+02 07 * * * /home/renderaccount/bin/count_civilparishes_id.sh                             #CONTROLLED BY update_render.sh
+07 07 * * * /home/renderaccount/bin/count_townlands_id.sh                                 #CONTROLLED BY update_render.sh
+12 07 * * * /home/renderaccount/bin/count_electoraldistricts_id.sh                        #CONTROLLED BY update_render.sh
+17 07 * * * /home/renderaccount/bin/count_historicchurchprovinces_id.sh                   #CONTROLLED BY update_render.sh
+22 07 * * * /home/renderaccount/bin/count_historicchurchdioceses_id.sh                    #CONTROLLED BY update_render.sh
+27 07 * * * /home/renderaccount/bin/count_historicchurchanglicanparishes_id.sh            #CONTROLLED BY update_render.sh
+#
+# ------------------------------------------------------------------------------
+# Count polylines in relations.
+# These are now moved to below cron.d
+# ------------------------------------------------------------------------------
+#
+# Now limited to 1000 lines

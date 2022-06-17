@@ -1,0 +1,464 @@
+#
+# cron-jobs for OSM long distance paths 2
+#
+
+MAILTO=renderaccount
+
+# m h  dom mon dow  user  command
+# ------------------------------------------------------------------------------
+# Count polylines in relations.
+#
+# The logic for each relation is the same.
+# Times start 8:01 on "day 1" and continue over three days.
+# "day 1" occurs every three days starting on 2nd of month, "day 2" every 3
+# starting on 3rd, etc.
+#
+# The number of polylines in each superrelation should be 0, although some
+# mistagged relations may end up with 0 parts in the database as well,
+# rather than really no components with geometry.
+#
+# Walking routes are handled first, then horse, then bicycle.
+# Generally speaking routes are handled as part of the highest level that they
+# are part of, so a local walking route that is part of an international
+# superrelation will be handled as part of the latter.
+#
+# This script is in https://github.com/SomeoneElseOSM/database_qa_scripts
+#
+# First, walking routes.
+# ------------------------------------------------------------------------------
+#
+#
+11 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 50288    Pennine_Bridleway
+#
+30 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4080347  Pennine_Way_Superrelation
+31 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4080403  Pennine_Way_Edale_to_Crowden
+32 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4082615  Pennine_Way_Crowden_to_Standedge
+33 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4086804  Pennine_Way_Standedge_to_Warland_Reservoir
+34 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4086878  Pennine_Way_Warland_Reservoir_to_Calder_Valley
+35 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4086931  Pennine_Way_Calder_Valley_to_Ickornshaw
+36 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4087636  Pennine_Way_Ickornshaw_to_Malham
+37 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4092633  Pennine_Way_Malham_to_Horton_in_Ribblesdale
+38 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4096160  Pennine_Way_Horton_in_Ribblesdale_to_Hawes
+39 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4096249  Pennine_Way_Hawes_to_Tan_Hill
+40 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13912153 Pennine_Way_Tan_Hill_to_Middleton
+40 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 63872    Pennine_Way_Middleton_to_Kirk_Yetholm
+41 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10411149 Pennine_Way_Tan_Hill_to_Kirk_Yetholm_Baldersdale
+42 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10411148 Pennine_Way_Tan_Hill_to_Kirk_Yetholm_Cheviot
+43 08 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10411102 Pennine_Way_Tan_Hill_to_Kirk_Yetholm_deviation
+#
+01 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2727980  Cosán_na_Naomh
+#
+30 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13183086 Peak_District_Boundary_Walk_Superrelation
+31 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12317660 Peak_District_Boundary_Walk_1
+32 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13182541 Peak_District_Boundary_Walk_2
+33 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13190107 Peak_District_Boundary_Walk_3
+34 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13224320 Peak_District_Boundary_Walk_4
+35 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13254180 Peak_District_Boundary_Walk_5
+36 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13186777 Peak_District_Boundary_Walk_6
+37 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13177921 Peak_District_Boundary_Walk_7
+38 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13166572 Peak_District_Boundary_Walk_8
+39 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13163952 Peak_District_Boundary_Walk_9
+40 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13162663 Peak_District_Boundary_Walk_10
+41 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13161185 Peak_District_Boundary_Walk_11
+42 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13161297 Peak_District_Boundary_Walk_12
+43 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13161923 Peak_District_Boundary_Walk_13
+44 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13169203 Peak_District_Boundary_Walk_14
+45 09 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12316549 Peak_District_Boundary_Walk_20
+#
+01 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11743021 A_Pennine_Journey
+02 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12026125 Pentland_Way
+03 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 48379    Pilgrims_Trail
+#
+20 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1706316  Poets_Trail_SR
+21 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1706314  Poets_Trail_ONeill
+22 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1706315  Poets_Trail_Urney
+23 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1706312  Poets_Trail_Ballykeel
+24 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1706313  Poets_Trail_Creggan
+#
+41 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1628935  Rhymney_River_Circular
+42 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1650661  Rhymney_Valley_Ridgeway_Walk
+43 10 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 37549    Ribble_Way
+#
+01 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8879     Ridgeway_nwn
+#
+21 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3015040  Ripon_Rowel
+22 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1756630  River_Ayr_Way
+23 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1464656  River_Parrett_Trail
+24 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5571103  River_Teign_Walk
+25 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 23388    River_Ver_Trail
+16 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1665131  Robin_Hood_Trail
+17 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1652131  Robin_Hood_Way
+18 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 189465   Rob_Roy_Way
+19 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2596108  Rochdale_Way
+20 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11141946 Romans_and_Reivers_Route
+21 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1517449  Rostrevor_Forest_Cloughmore
+22 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1517448  Rostrevor_Forest_Slievebane
+23 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1517447  Rostrevor_Forest_Slievemartin
+24 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3852698  Rothschild_Way
+25 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3466963  The_Royal_Canal_Way
+26 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1438826  Rutland_Round
+27 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1649578  Rushcliffe_Country_Park_10km_Course
+#
+41 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 360996   Saint_Cuthbert_West
+42 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4515120  Saint_Cuthbert_East
+43 11 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10408203 Saint_Cuthbert_deviation
+#
+01 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2382950  Saints_Way
+#
+21 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2663     Sandlings_Walk
+22 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1774298  Sandlings_Walk_Heath_Road_route
+23 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1774288  Sandlings_Walk_St_Augustine_s_route
+#
+41 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 50726    Sandstone_Trail
+42 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12014183 Sarsen_Way
+43 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8864     Saxon_Shore_Way
+44 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4657369  The_Selsey_Tram_Way
+45 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2177151  Settle_Loop
+46 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1970431  The_Serpent_Trail
+47 12 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8903372  Seven_Lochs_Trail
+#
+01 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13159639 Severn_Way_Source
+02 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13159793 Severn_Way_Shrewsbury
+03 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13159760 Severn_Way_Worcester
+#
+21 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 721956   Shakespeares_Avon_Way
+22 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 71448    Shakespeares_Way
+23 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5288023  Sheeps_Head_Way
+23 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1230368  Sheffield_Country_Walk
+24 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1943329  Sherbourne_Valley_Walk
+25 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2683563  The_Shipwrights_Way
+#
+41 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7708228  Shropshire_Way_Main_Route_North
+42 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7716304  Shropshire_Way_Main_Route_South
+43 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3092171  Shropshire_Way_Route_4
+44 13 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2078989  Shropshire_Way_Route_11
+#
+01 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7764220  Simon_Evans_Way
+02 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2164034  Silurian_Way
+#
+20 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9486611  Sk2Cy_Superroute
+21 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9661906  Sk2Cy_a
+22 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11246016 Sk2Cy_b
+#
+41 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10520310 Sli_Gaeltacht_Muscrai
+42 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11489342 Slieve_Bloom_Way
+43 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1686070  Sligo_Way
+44 14 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1581577  Solent_Way
+#
+01 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4004180  Snowdon_Miners_Track
+02 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4004181  Snowdon_Llanberis_Path
+03 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4004182  Snowdon_Pyg_Track
+04 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4004198  Snowdon_Watkin_Path
+05 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4004199  Snowdon_Rhyd_Ddu_Path
+06 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4004200  Snowdon_Ranger_Path
+#
+21 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8271587  South_Bucks_Way
+22 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 48181    South_Cheshire_Way
+23 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2190977  South_Dorset_Ridgeway
+#
+41 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 77976    South_Downs_Way_Hiking
+42 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5881     South_Downs_Way_Cycle
+43 15 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5321850  South_Downs_Way_Inland
+#
+01 16 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 50325    Southern_Upland_Way_A
+02 16 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4737027  Southern_Upland_Way_B
+03 16 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4736962  Southern_Upland_Way_C
+04 16 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10411065 Southern_Upland_Way_deviation
+#
+21 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12755086 South_Cheshire_Market_Towns_Trail
+22 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1352495  South_Leinster_Way
+23 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2918220  South_Loch_Ness_Trail
+24 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10725876 South_Tyne_Trail
+25 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 82009    Southwell_Trail
+#
+40 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376086  SWCP_Superrelation
+41 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2191940  SWCP_01_Minehead
+42 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2205249  SWCP_02_Porlock
+43 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2371752  SWCP_03_Lynmouth
+44 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2371849  SWCP_04_Combe_Martin
+45 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2372163  SWCP_05_Woolacombe
+46 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2372201  SWCP_06_Braunton
+47 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2372431  SWCP_07_Instow
+48 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2372555  SWCP_08_Westward
+49 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2372584  SWCP_09_Clovelly
+50 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2373766  SWCP_10_Hartland
+51 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374165  SWCP_11_Bude
+52 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374227  SWCP_12_Crackington
+53 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374237  SWCP_13_Tintagel
+54 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374244  SWCP_14_Port_Isaac
+55 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374261  SWCP_15_Padstow
+56 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374270  SWCP_16_Porthcothan
+57 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374449  SWCP_17_Newquay
+58 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374546  SWCP_18_Perranporth
+59 17 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374556  SWCP_19_Portreath
+00 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374590  SWCP_20_Hayle
+01 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374605  SWCP_21_St_Ives
+02 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374612  SWCP_22_Pendeen
+03 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374624  SWCP_23_Sennen
+04 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374632  SWCP_24_Lamorna
+05 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374655  SWCP_25_Marazion
+06 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375676  SWCP_26_Porthleven
+07 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375687  SWCP_27_Lizard
+08 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375711  SWCP_28_Coverack
+09 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375724  SWCP_29_Helford
+10 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375770  SWCP_30_Falmouth
+11 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375786  SWCP_31_Portloe
+12 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375852  SWCP_32_Mevagissey
+13 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375882  SWCP_33_Par
+14 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375924  SWCP_34_Polperro
+15 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2375987  SWCP_35_Portwrinkle
+16 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376012  SWCP_36_Plymouth
+17 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376018  SWCP_37_Wembury
+18 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376042  SWCP_38_Bigbury
+19 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376063  SWCP_39_Salcombe
+20 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376077  SWCP_40_Torcross
+21 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376085  SWCP_41_Dartmouth
+22 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376117  SWCP_42_Brixham
+23 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376118  SWCP_43_Babbacombe
+24 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376119  SWCP_44_Exmouth
+25 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376336  SWCP_45_Sidmouth
+26 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376368  SWCP_46_Seaton
+27 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376377  SWCP_47_Seatown
+28 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376383  SWCP_48_Abbotsbury
+29 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376414  SWCP_49_Portland
+30 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376424  SWCP_50_Ferrybridge
+31 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376430  SWCP_51_Lulworth
+32 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2376455  SWCP_52_Worth_Matravers
+#
+51 18 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1953181  Sowe_Valley_Footpath
+#
+11 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1026251  Speyside_Way
+12 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1754431  Speyside Way_Tominoul_Spur
+13 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2313071  Spires_and_Steeples_Trail
+#
+30 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1956970  Staffordshire_Way_Superrelation
+31 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 86542    Staffordshire_Way_Rushton_Spencer-Cannock_Chase
+32 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1956986  Staffordshire_Way_Mow_Cop-Rushton_Spencer
+33 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1957003  Staffordshire_Way_Cannock_Chase_South
+#
+51 19 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1165357  Staunton_Way
+#
+11 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5527     Stevenage_STOOP
+12 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 14502    Stevenage_STOOP_Link_5
+13 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12934    Stevenage_STOOP_Link_6
+14 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11475    Stevenage_STOOP_Link_7
+#
+31 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 358939   St_Edmund_Way
+32 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1156074  St_Illtyds_Walk
+33 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 140533   St_Peters_Way
+34 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 48741    St_Swithuns_Way
+35 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5637581  Stephen_Langton_Trail
+36 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9386926  Stone_Circles_Challenge
+37 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 357955   Stour_Valley_Path
+38 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 85775    Stour_Valley_Way
+39 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2858232  Strawberry_Trail
+40 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1140775  Suffolk_Coast_Path
+41 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1002129  Sussex_Border_Path
+42 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13016936 Sussex_Diamond_Way
+43 20 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 331403   Sussex_Ouse_Valley_Way
+#
+00 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4079888  Tameside_Trail_Superrelation
+01 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2522002  Tameside_Trail_West
+02 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4079912  Tameside_Trail_East
+#
+21 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 957011   Teesdale_Middleton
+22 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4097724  Teesdale_Dufton
+23 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4097745  Teesdale_Middlesbrough
+#
+41 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2050011  Tabular_Hills_Walk
+42 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3000677  Taff_Trail
+43 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 6086449  Tamar_Valley_Discovery_Trail
+44 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2413672  Tandridge_Border_Path
+45 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1837385  Tarka_Trail
+46 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1879599  Tas_Valley_Way
+47 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2304117  Taw_Teign_Link
+48 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3179175  Tees_Link
+49 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9397589  Tees_Railway_Path
+50 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3076124  Teignmouth_Dawlish_Way
+51 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1837211  Templer_Way
+52 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1152372  Tennyson_Trail
+53 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9061     Test_Way
+54 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3471435  Thame_Valley_Walk
+55 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 115934   Thames_Down_Link
+56 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 6676879  Thames_Estuary_Path
+57 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 20469    Thames_Path
+58 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9480766  Thames_Path_northern_bank
+59 21 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9477925  Thames_Path_alternate
+00 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3633503  Thomas_Muir_Trail
+01 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 399667   Three_Castles_Path
+02 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7244316  Three_Castles_Walk_Monmouthshire
+#
+20 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 112661   Three_Choirs_Way_Superrelation
+21 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3149262  Three_Choirs_Way_Gloucester
+22 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3149263  Three_Choirs_Way_Hereford
+23 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3149264  Three_Choirs_Way_Worcester
+#
+41 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2173689  Three_Forests_Way
+42 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1756632  Three_Lochs_Way
+43 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5643210  Three_Peaks_Walk_Cheshire
+44 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5671418  Three_Peaks_Walk_Yorkshire
+45 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10834150 Three_Saints_Way_Killin
+46 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 302973   Three_Shires_Way
+47 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2175050  Tipperary_Heritage_Way
+48 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 6184772  Tiverton_Cullompton_Circular
+49 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1969406  Tóchar_Phádraig
+50 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1732463  Todmorden_Centenary_Way
+51 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1085451  Tollymore_Drinns
+52 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1085449  Tollymore_River
+53 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1085450  Tollymore_Mountain
+54 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1085448  Tollymore_Arboretum
+55 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 104743   Torbay_Totnes_Trail
+56 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12807812 Trail_of_the_7_Lochs
+57 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 162862   Trent_Valley_Way
+58 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1745534  Tunbridge_Wells_Circular_Walk
+59 22 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2374682  Two_Castles_Trail
+00 23 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 148927   Two_Counties_Way
+01 23 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 228450   Two_Moors_Way
+02 23 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1845277  Two_Saints_Way
+03 23 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3208651  Two_Rivers_Way
+04 23 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 6168860  The_Ullswater_Way
+#
+20 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11642511 Tyne_and_Wear_Heritage_Superroute
+21 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11527371 Tyne_and_Wear_Heritage_Section_6
+22 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11638432 Tyne_and_Wear_Heritage_Section_7
+#
+40 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 918951   Ulster_Way_SR_and_Ways
+41 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1115817  Ulster_Way_Link_Sections
+42 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1116068  Lagan_Towpath
+43 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 917588   Mourne_Way
+44 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1015887  Newry_Canal_Way
+45 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1015851  Ring_of_Gullion_Way
+46 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1017125  Sliabh_Beagh_Way
+47 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1017126  Cuilcagh_Way
+48 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1160116  North_Sperrins_Way
+49 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1462459  Causeway_Coast_and_Glens_9
+50 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1474899  Causeway_Coast_and_Glens_14
+51 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1085994  Causeway_Coast_Way
+52 00 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1120852  Moyle_Way
+#
+21 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1766483  Usk_Valley_Walk
+22 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12835687 The_Vale_Way
+23 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 86545    Vanguard_Way
+24 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3581336  Vaughan_Walk
+25 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7342961  Via_Beata
+#
+40 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4100294  Viking_Way_Superrelation
+41 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 404079   Viking_Way_Barnetby_to_Whitwell
+42 01 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4100350  Viking_Way_Barton-upon-Humber_to_Barnetby
+#
+01 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1281980  Violet_Hill_Loop_Walk
+02 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5272373  Wakefield_Way
+#
+20 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1820890  Wales_Coast_Path_Superroute
+21 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5480036  Wales_Coast_Path_Alternative
+22 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1820886  Wales_Coast_Path_Llyn_Coastal_Path
+23 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 77964    Wales_Coast_Path_Pembrokeshire_Coast_Path
+24 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1806040  Wales_Coast_Path_Ceredigion_Coast_Path
+25 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1820963  Wales_Coast_Path_link_St_Dogmaels-Cardigan
+26 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 374890   Wales_Coast_Path_Isle_of_Anglesey_Coastal_Path
+27 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1850847  Wales_Coast_Path_North_Wales_Coast
+28 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3285170  Wales_Coast_Path_Cardiff_Newport_area
+29 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2448117  Wales_Coast_Path_Meirionnydd
+#
+41 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7676     Wandle_Trail
+42 02 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7479897  Wats_Dyke_Way
+#
+01 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11597074 Way_of_Learning
+02 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11545216 Way_of_Life_Gainford_to_Escomb
+03 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12642913 Way_of_Light
+04 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 11726730 Way_of_Love
+#
+21 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5289     Wayfarers_Walk
+22 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7132142  The Way_for_the_Millennium
+23 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 399106   Wealdway
+24 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 86561    Weardale_Way
+25 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1427557  Weavers_Way
+26 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 319118   Wessex_Ridgeway
+27 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1828432  The_Western_Way_Galway
+28 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2974867  The_Western_Way_Mayo
+29 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 16287    West_Highland_Way
+30 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1756633  West_Island_Way
+31 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 157485   West_Sussex_Literary_Trail
+32 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 336920   Wherrymans_Way
+33 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2264309  White_Horse_Trail
+#
+51 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8489336  Whithorn_Way_a
+52 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8496757  Whithorn_Way_b
+53 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8489823  Whithorn_Way_Fisherton
+54 03 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 8489601  Whithorn_Way_alternative
+#
+11 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2740     The_Wicklow_Way
+12 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 6701121  Wilberforce_Way
+13 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2363465  Winchcombe Way_East
+14 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2310202  Winchcombe Way_West
+#
+31 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 72516    Beamers_Trail_Witton_Weavers
+32 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 78272    Warpers_Trail_Witton_Weavers
+33 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 78280    Reelers_Trail_Witton_Weavers
+34 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 78281    Tacklers_Trail_Witton_Weavers
+#
+51 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 78028    Wolds_Way
+52 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 9726642  The_Wokingham_Way
+53 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 73871    Worcestershire_Way
+54 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 72579    Wychavon_Way
+55 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 111662   Wychwood_Way
+56 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 61495    Wye_Valley_Walk
+57 04 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 65891    Wysis_Way
+#
+10 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1956169   E2_Superrelation
+11 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1959505   E2_UK_Superelation
+12 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4515206   E2_UK_Scotland_Superelation
+13 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4091313   E2_UK_England_NE_Superelation
+14 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1976184   E2_UK_England_Yorkshire_Superelation
+15 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222021  E2_UK_England_Yorkshire_Filey
+16 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1976182   E2_UK_England_East_Mids_Superelation
+17 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4077796   E2_UK_England_NW_Superelation
+#
+31 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222095  E2_England_East_Whittlesey
+32 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222096  E2_England_East_Cambridge
+33 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222176  E2_England_Northwest_Standedge
+34 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222177  E2_England_Northwest_Broadbottom
+35 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222175  E2_England_Northwest_connector
+36 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 13222182  E2_England_Westmids_Birmingham
+37 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4073636   E2_England_Southwest
+38 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1976229   E2_England_Southeast
+#
+50 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1175728   E8_Superrelation
+51 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 3070643   E8_Ireland
+52 05 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2275549   E8_Great_Britain
+#
+10 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1254604   E9_Superrelation
+11 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1959386   E9_Great_Britain_alt
+12 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1959466   E9_GB_IOW_alt
+#
+30 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4139041  TPT_rwn_Superrelation
+31 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2275550  TPT_rwn_Silkstone_Common_to_Wombwell
+32 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10521621 TPT_rwn_Wombwell_to_Selby
+33 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10529390 TPT_rwn_Selby_to_Hull
+34 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 156407   TPT_rwn_Southport_to_Liverpool
+35 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4139068  TPT_rwn_Charlesworth_alternative_route
+36 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4139096  TPT_rwn_Staveley_to_Chesterfield
+37 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4139134  TPT_rwn_Chesterfield_to_Staveley_alternative_route
+38 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4139162  TPT_rwn_Beighton_to_Staveley
+39 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4139229  TPT_rwn_Liverpool_to_Warrington
+40 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4444882  TPT_rwn_Warrington_to_Ashton-upon-Mersey
+41 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5504431  TPT_rwn_Ashton-upon-Mersey_to_Stockport
+42 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 5508387  TPT_rwn_Stockport_to_Silkstone_Common
+43 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10508149 TPT_rwn_Leeds_-_Wombwell
+44 06 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 10528977 TPT_rwn_York_-_Selby
+#
+# ------------------------------------------------------------------------------
+# Next, horse routes
+# ------------------------------------------------------------------------------
+01 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 49366    Bishop Bennet Way
+02 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 303343   Jack_Mytton_Way
+03 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 537430   Sabrina_Way
+04 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1770168  Icknield_Way_Trail_nhn
+05 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 1832946  Swans_Way
+06 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 2282982  Peddars_Way_Bridle_Route
+07 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 4043744  Humphrey_Kynaston_Way
+08 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 6185982  Three_Rivers_Ride
+09 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 7185157  Mount_Lothian_Trail
+10 07 3,6,9,12,15,18,21,24,27,30 * * renderaccount /home/renderaccount/bin/count_generic.sh 12808220 Trail_of_the_7_Lochs_horse
+#
+
