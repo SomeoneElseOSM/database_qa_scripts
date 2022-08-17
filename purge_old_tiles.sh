@@ -1,6 +1,19 @@
 # ----------------------------------------------------------------------------
 # purge_old_tiles.sh
 #
+# Tiles are served by Apache to users as .png files, but stored locally in
+# files such as /var/cache/renderd/tiles/ajt/9/0/0/0/0/0/250/128.meta .
+# The location of these files is determined by the settings in the
+# "renderd.conf" file, which typically lives in /etc .  For modern
+# systems tiles will typically be below /var/cache/renderd by default;
+# previously /var/lib/mod_tile was used.  A combination of "tile_dir"
+# from that config and the layer name is used.
+#
+# After the layer name (in the example above "ajt") is the zoom level, and
+# then either 5 numbers in the standard mod_tile, or 7 in one modified for
+# higher zoom levels such as
+# https://github.com/SomeoneElseOSM/mod_tile/tree/zoom2022 .
+#
 # When a tile is marked "dirty" the access time is set to a long time ago
 # (20 years or about 240 months ago in the standard mod_tile; 10k days or 
 # about 27 years or 333 months in my version)
