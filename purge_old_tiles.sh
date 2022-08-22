@@ -26,7 +26,7 @@
 # ----------------------------------------------------------------------------
 # When newly dirtied tiles have been dirty for 3 months, purge them
 # ----------------------------------------------------------------------------
-find /var/lib/mod_tile/ajt -type f ! -newermt `date +%Y%m%d --date="243 month ago"` -exec rm {} \; -print
+find /var/cache/renderd/tiles/ajt -type f ! -newermt `date +%Y%m%d --date="243 month ago"` -exec rm {} \; -print
 #
 # ----------------------------------------------------------------------------
 # Which metatiles are dirtied by render_expired and which are deleted (or
@@ -36,8 +36,8 @@ find /var/lib/mod_tile/ajt -type f ! -newermt `date +%Y%m%d --date="243 month ag
 # High zoom tiles are deleted by render_expired so no need to process here.
 # Low zoom tiles aren't dirtied; just check for files over 6 months old.
 # ----------------------------------------------------------------------------
-find /var/lib/mod_tile/ajt/12 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
-find /var/lib/mod_tile/ajt/11 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
-find /var/lib/mod_tile/ajt/10 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
-find /var/lib/mod_tile/ajt/? -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
+find /var/cache/renderd/tiles/ajt/12 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
+find /var/cache/renderd/tiles/ajt/11 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
+find /var/cache/renderd/tiles/ajt/10 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
+find /var/cache/renderd/tiles/ajt/? -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print
 #
