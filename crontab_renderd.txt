@@ -29,20 +29,8 @@
 #
 # ------------------------------------------------------------------------------
 # Count various multipolygon relations.
-#
-# The selection in each script is slightly different
-# These scripts are from https://github.com/SomeoneElseOSM/database_qa_scripts
+# Now moved to root's crontab
 # ------------------------------------------------------------------------------
-#
-47 06 * * * /home/renderaccount/bin/count_nationalparks_id.sh                             #CONTROLLED BY update_render.sh
-52 06 * * * /home/renderaccount/bin/count_counties_id.sh                                  #CONTROLLED BY update_render.sh
-57 06 * * * /home/renderaccount/bin/count_baronies_id.sh                                  #CONTROLLED BY update_render.sh
-02 07 * * * /home/renderaccount/bin/count_civilparishes_id.sh                             #CONTROLLED BY update_render.sh
-07 07 * * * /home/renderaccount/bin/count_townlands_id.sh                                 #CONTROLLED BY update_render.sh
-12 07 * * * /home/renderaccount/bin/count_electoraldistricts_id.sh                        #CONTROLLED BY update_render.sh
-17 07 * * * /home/renderaccount/bin/count_historicchurchprovinces_id.sh                   #CONTROLLED BY update_render.sh
-22 07 * * * /home/renderaccount/bin/count_historicchurchdioceses_id.sh                    #CONTROLLED BY update_render.sh
-27 07 * * * /home/renderaccount/bin/count_historicchurchanglicanparishes_id.sh            #CONTROLLED BY update_render.sh
 #
 # ------------------------------------------------------------------------------
 # Count polylines in relations.
