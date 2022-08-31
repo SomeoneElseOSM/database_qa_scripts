@@ -17,9 +17,8 @@
 # On Debian 11 / Ubuntu 21.04 and above "local_renderd_user" will typically
 # be "_renderd"
 # ------------------------------------------------------------------------------
-local_filesystem_user=renderaccount
-local_renderd_user=renderaccount
-#local_renderd_user=_renderd
+local_filesystem_user=ajtown
+local_renderd_user=_renderd
 #
 if [ $# -eq 0 ]
 then
