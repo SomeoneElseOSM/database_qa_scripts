@@ -5,6 +5,6 @@
 local_filesystem_user=ajtown
 local_renderd_user=_renderd
 mv /home/${local_filesystem_user}/data/townlands_id.justnow /home/${local_filesystem_user}/data/townlands_id.previously
-sudo -u ${local_renderd_user} psql -d gis -c "SELECT distinct osm_id,name FROM planet_osm_polygon WHERE (admin_level = '10') AND (place = 'locality');" > /home/${local_filesystem_user}/data/townlands_id.justnow
+sudo -u ${local_renderd_user} psql -d gis -c "SELECT distinct osm_id,name FROM planet_osm_polygon WHERE (admin_level = '10') AND (place = 'locality');" > /home/${local_filesystem_user}/data/townlands_id.justnow 2> /dev/null
 diff /home/${local_filesystem_user}/data/townlands_id.justnow /home/${local_filesystem_user}/data/townlands_id.previously
 #
