@@ -281,7 +281,14 @@ MAILTO=renderaccount
 54 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3471435  Thame_Valley_Walk
 55 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 115934   Thames_Down_Link
 56 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6676879  Thames_Estuary_Path
-57 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20469    Thames_Path
+#
+10 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20469    Thames_Path_Superrelation
+11 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14519665 Thames_Path_Main
+12 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5401488  Thames_Path_Extension
+13 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14519667 Thames_Path_Alt1
+14 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14519666 Thames_Path_Alt2
+# renumber from here
+#
 58 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9480766  Thames_Path_northern_bank
 59 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9477925  Thames_Path_alternate
 00 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3633503  Thomas_Muir_Trail
