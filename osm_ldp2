@@ -2,7 +2,7 @@
 # cron-jobs for OSM long distance paths 2
 #
 
-MAILTO=renderaccount
+MAILTO=ajtown
 
 # m h  dom mon dow  user  command
 # ------------------------------------------------------------------------------
