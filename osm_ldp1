@@ -476,8 +476,16 @@ MAILTO=ajtown
 37 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 38386    Lancashire_Coastal_Way
 38 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10816296 Llwybr_y_Ffin_Landsker
 39 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1337853  Lark_Valley_Path
-40 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16206    Lea_Valley_Walk
 #
+50 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16206    Lea_Valley_Walk_SR
+51 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14514800 Lea_Valley_Walk_1
+52 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522348 Lea_Valley_Walk_2
+53 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522349 Lea_Valley_Walk_3
+54 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522350 Lea_Valley_Walk_4
+55 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522351 Lea_Valley_Walk_5
+56 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522352 Lea_Valley_Walk_6
+57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522353 Lea_Valley_Walk_7
+# renumber
 00 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 919106   Lecale_Way_SR
 01 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1621230  Lecale_Way_UWS
 #
