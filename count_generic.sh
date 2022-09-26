@@ -26,8 +26,8 @@ then
 else
     #echo "$0 - $# arguments passed"     #debug
     mv /home/${local_filesystem_user}/data/ldp_$1.justnow /home/${local_filesystem_user}/data/ldp_$1.previously
-    sudo -u ${local_renderd_user} psql -d gis -c "SELECT count(*) FROM planet_osm_line WHERE (osm_id = '-$1');" > /home/${local_filesystem_user}/data/ldp_$1.justnow 2>&1
-    diff /home/${local_filesystem_user}/data/ldp_$1.justnow /home/${local_filesystem_user}/data/ldp_$1.previously > /home/${local_filesystem_user}/data/ldp_$1.diff
+    sudo -u ${local_renderd_user} psql -d gis -c "SELECT count(*) FROM planet_osm_line WHERE (osm_id = '-$1');" > /home/${local_filesystem_user}/data/ldp_$1.justnow 2> /home/${local_filesystem_user}/data/ldp_$1.err
+    diff /home/${local_filesystem_user}/data/ldp_$1.previously /home/${local_filesystem_user}/data/ldp_$1.justnow | grep -v "could not change directory" | grep -v 1d0 > /home/${local_filesystem_user}/data/ldp_$1.diff 
     wclines=`cat /home/${local_filesystem_user}/data/ldp_$1.diff | wc -l`;
     #echo $wclines;  #debug
     if [ $wclines -ne 0 ]
