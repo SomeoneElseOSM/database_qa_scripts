@@ -67,18 +67,22 @@ MAILTO=ajtown
 28 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9539965  EV1_English_Channel
 #
 40 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2003423  EV2
-41 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 6676627  EV2_IE
-42 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9112248  EV2_Irish_Sea
-43 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9481976  EV2_UK
-44 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479823  EV2_UK_1
-45 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479824  EV2_UK_2
-46 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479822  EV2_UK_3
-47 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479821  EV2_UK_4
-48 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479817  EV2_UK_5
-49 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479816  EV2_UK_6
-50 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479815  EV2_UK_7
-51 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479814  EV2_UK_8
-52 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9173178  EV2_North_Sea
+#
+41 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 6676627  EV2_IE_SR
+42 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 14558428 EV2_IE_1
+43 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 14722695 EV2_IE_2
+#
+44 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9112248  EV2_Irish_Sea
+45 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9481976  EV2_UK
+46 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479823  EV2_UK_1
+47 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479824  EV2_UK_2
+48 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479822  EV2_UK_3
+49 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479821  EV2_UK_4
+50 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479817  EV2_UK_5
+51 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479816  EV2_UK_6
+52 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479815  EV2_UK_7
+53 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479814  EV2_UK_8
+54 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9173178  EV2_North_Sea
 #
 10 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2764534  EV5_SR
 11 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2842302  EV5_UK_SR
