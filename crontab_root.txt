@@ -2,7 +2,7 @@
 # -----------------------------------------------------------------------------
 # Certificate renewal
 # -----------------------------------------------------------------------------
-2 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
+13 23 *	* * /usr/local/sbin/renew_acme.sh
 #
 # ------------------------------------------------------------------------------
 # Count various multipolygon relations.
@@ -29,11 +29,18 @@
 # The "#CONTROLLED BY update_render.sh" comments are to allow these lines to
 # be temporarily removed while the database is reloaded.
 # -----------------------------------------------------------------------------
-33 00 * * * /usr/local/sbin/update_scripts/update_floods.sh  #CONTROLLED BY update_render.sh
-33 09 * * * /usr/local/sbin/update_scripts/update_floods.sh  #CONTROLLED BY update_render.sh
-33 12 * * * /usr/local/sbin/update_scripts/update_floods.sh  #CONTROLLED BY update_render.sh
-33 15 * * * /usr/local/sbin/update_scripts/update_floods.sh  #CONTROLLED BY update_render.sh
-33 18 * * * /usr/local/sbin/update_scripts/update_floods.sh  #CONTROLLED BY update_render.sh
-33 21 * * * /usr/local/sbin/update_scripts/update_floods.sh  #CONTROLLED BY update_render.sh
+33 23 * * * /usr/local/sbin/update_floods.sh  #CONTROLLED BY update_render.sh
+33 08 * * * /usr/local/sbin/update_floods.sh  #CONTROLLED BY update_render.sh
+33 11 * * * /usr/local/sbin/update_floods.sh  #CONTROLLED BY update_render.sh
+33 14 * * * /usr/local/sbin/update_floods.sh  #CONTROLLED BY update_render.sh
+33 17 * * * /usr/local/sbin/update_floods.sh  #CONTROLLED BY update_render.sh
+33 20 * * * /usr/local/sbin/update_floods.sh  #CONTROLLED BY update_render.sh
+#
+# -----------------------------------------------------------------------------
+# Restart renderd weekly after the Garmin map creation from ajtown's crontab
+# at "07 05 * * 1"
+# or daily at "07 05 * * *"
+# -----------------------------------------------------------------------------
+07 05 * * * /etc/init.d/renderd restart
 #
 
