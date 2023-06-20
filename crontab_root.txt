@@ -1,15 +1,16 @@
+# (all times UTC)
 # m h  dom mon dow   command
 # -----------------------------------------------------------------------------
 # Certificate renewal
 # -----------------------------------------------------------------------------
 13 23 *	* * /usr/local/sbin/renew_acme.sh
 #
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Count various multipolygon relations.
 #
 # The selection in each script is slightly different
 # These scripts are from https://github.com/SomeoneElseOSM/database_qa_scripts
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 47 06 * * * /usr/local/sbin/count_nationalparks_id.sh                             #CONTROLLED BY update_render.sh
 52 06 * * * /usr/local/sbin/count_counties_id.sh                                  #CONTROLLED BY update_render.sh
 57 06 * * * /usr/local/sbin/count_baronies_id.sh                                  #CONTROLLED BY update_render.sh
@@ -38,9 +39,11 @@
 #
 # -----------------------------------------------------------------------------
 # Restart renderd weekly after the Garmin map creation from ajtown's crontab
-# at "07 05 * * 1"
-# or daily at "07 05 * * *"
+# at "06 06 * * 1"
+# or daily at "06 06 * * *"
+# This is because renderd can encounter OOM errors during Garmin map creation.
+# The Garmin process finishes around 5:30 UTC / 6:30 BST.
 # -----------------------------------------------------------------------------
-07 05 * * * /etc/init.d/renderd restart
+06 06 * * * /etc/init.d/renderd restart
 #
 
