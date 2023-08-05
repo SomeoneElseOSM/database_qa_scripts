@@ -18,9 +18,9 @@
 # These scripts are from https://github.com/SomeoneElseOSM/database_qa_scripts
 # ------------------------------------------------------------------------------
 #
-32 06 * * * /usr/local/sbin/purge_old_tiles.sh
-37 06 * * * /usr/local/sbin/report_tile_size.sh
-42 06 * * * /usr/local/sbin/rerender_low.sh                                       #CONTROLLED BY update_render.sh
+32 05 * * * /usr/local/sbin/purge_old_tiles.sh
+37 05 * * * /usr/local/sbin/report_tile_size.sh
+42 05 * * * /usr/local/sbin/rerender_low.sh                                       #CONTROLLED BY update_render.sh
 #
 # ------------------------------------------------------------------------------
 # Update database based on current river levels

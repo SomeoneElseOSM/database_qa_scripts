@@ -1,9 +1,10 @@
 # (all times UTC)
 # m h  dom mon dow   command
 # -----------------------------------------------------------------------------
-# Create a new "ajt2" Garmin map once a week
+# Create new "ajt2" and "ajt03" Garmin maps once a week
 # -----------------------------------------------------------------------------
-06 05 * * 1 /usr/local/sbin/garmin_map_etrex.sh
+06 03 * * 3 /usr/local/sbin/garmin_map_etrex.sh
+06 03 * * 4 /usr/local/sbin/garmin_map_etrex_03.sh
 #
 # -----------------------------------------------------------------------------
 # Investigate changes to tag usage and mail them out.

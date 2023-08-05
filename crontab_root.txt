@@ -39,11 +39,11 @@
 #
 # -----------------------------------------------------------------------------
 # Restart renderd weekly after the Garmin map creation from ajtown's crontab
-# at "06 06 * * 1"
-# or daily at "06 06 * * *"
-# This is because renderd can encounter OOM errors during Garmin map creation.
-# The Garmin process finishes around 5:30 UTC / 6:30 BST.
+# at "06 03 * * 4"
+# This is because depending on server config renderd can encounter OOM errors
+# during Garmin map creation.
+# The Garmin process should finish around 4:00 UTC / 5:00 BST.  
 # -----------------------------------------------------------------------------
-06 06 * * * /etc/init.d/renderd restart
+30 04 * * * /etc/init.d/renderd restart
 #
 
