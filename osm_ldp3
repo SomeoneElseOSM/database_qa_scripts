@@ -117,7 +117,7 @@ MAILTO=ajtown
 03 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3579135  GSG_NK_2
 04 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2709357  GSG_NK_3
 #
-# NCN1 has been substratially reengineered.  See also EV12.
+# NCN1 has been substantially reengineered.  See also EV12.
 #
 20 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1992599   NCN1_SR1
 21 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 75880     NCN1_101
