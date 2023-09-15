@@ -404,13 +404,16 @@ MAILTO=ajtown
 33 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78280    Reelers_Trail_Witton_Weavers
 34 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78281    Tacklers_Trail_Witton_Weavers
 #
-51 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78028    Wolds_Way
-52 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9726642  The_Wokingham_Way
-53 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 73871    Worcestershire_Way
-54 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 72579    Wychavon_Way
-55 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 111662   Wychwood_Way
-56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
-57 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
+40 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16327216 Wolds_Way_Superrelation
+41 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78028    Wolds_Way_Main
+42 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16327210 Wolds_Way_Hull
+#
+51 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9726642  The_Wokingham_Way
+52 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 73871    Worcestershire_Way
+53 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 72579    Wychavon_Way
+54 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 111662   Wychwood_Way
+55 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
+56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
 #
 10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_Superrelation
 11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_Superelation
