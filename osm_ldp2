@@ -412,23 +412,32 @@ MAILTO=ajtown
 56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
 57 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
 #
-10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_Superrelation
-11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_UK_Superelation
-12 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515206   E2_UK_Scotland_Superelation
-13 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4091313   E2_UK_England_NE_Superelation
-14 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976184   E2_UK_England_Yorkshire_Superelation
-15 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222021  E2_UK_England_Yorkshire_Filey
-16 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976182   E2_UK_England_East_Mids_Superelation
-17 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4077796   E2_UK_England_NW_Superelation
+10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_Superrelation
+11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_Superelation
+12 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515206   E2_East_UK_Scotland_Superelation
+13 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4091313   E2_East_UK_England_NE_Superelation
+14 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976184   E2_East_UK_England_Yorkshire_Superelation
+15 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222021  E2_East_UK_England_Humber_bridge
+16 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976182   E2_East_UK_England_East_Mids_Superelation
+17 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976183   E2_East_UK_England_East_Superelation
+18 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222095  E2_East_England_East_Whittlesey
+19 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222096  E2_East_England_East_Cambridge
 #
-31 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222095  E2_England_East_Whittlesey
-32 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222096  E2_England_East_Cambridge
-33 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222176  E2_England_Northwest_Standedge
-34 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222177  E2_England_Northwest_Broadbottom
-35 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222175  E2_England_Northwest_connector
-36 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222182  E2_England_Westmids_Birmingham
-37 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4073636   E2_England_Southwest
-38 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976229   E2_England_Southeast
+20 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14018636  E2_West_Superrelation
+21 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14018635  E2_West_UK_Superelation
+22 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13914778  E2_West_UK_Northeast_Superelation
+23 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13914777  E2_West_UK_England_Yorkshire_Superelation
+#
+30 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4077796   E2_West_UK_England_NW_Superelation
+31 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222176  E2_West_England_Northwest_Standedge
+32 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222177  E2_West_England_Northwest_Broadbottom
+33 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222175  E2_West_England_Northwest_connector
+#
+40 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976230   E2_West_UK_England_WM_Superelation
+41 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222182  E2_West_England_Westmids_Birmingham
+#
+42 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4073636   E2_West_England_Southwest
+43 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976229   E2_West_England_Southeast
 #
 50 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1175728   E8_Superrelation
 51 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3070643   E8_Ireland
