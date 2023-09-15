@@ -360,7 +360,8 @@ MAILTO=ajtown
 #
 10 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102329  Fen_Rivers_Superrelation
 11 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3728695  Fen_Rivers_Ely
-12 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3728695  Fen_Rivers_Cambridge
+12 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102347  Fen_Rivers_Cambridge_1
+13 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13915248 Fen_Rivers_Cambridge_2
 #
 31 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10841122 Fife_Coastal_Path
 32 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7776868  Fife_Pilgrim_Way
