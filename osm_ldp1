@@ -394,7 +394,9 @@ MAILTO=ajtown
 03 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1330089  The_Grand_Canal_Way
 04 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1920617  Greensand_Ridge_Walk
 05 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 57416    Greensand_Way
-06 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3212473  Greenwich_Meridian_Trail
+#
+11 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3212473  Greenwich_Meridian_Trail
+12 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16376692 Greenwich_Meridian_Trail_Cambridge_Loop
 #
 21 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3537417  Gustav_Holst_Way_Guiting_Power_to_Wyck_Rissington
 22 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3537408  Gustav_Holst_Way_Corndean_Lane_to_Guiting_Power
