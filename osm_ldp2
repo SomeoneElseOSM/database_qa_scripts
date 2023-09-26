@@ -78,6 +78,7 @@ MAILTO=ajtown
 41 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1628935  Rhymney_River_Circular
 42 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1650661  Rhymney_Valley_Ridgeway_Walk
 43 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 37549    Ribble_Way
+44 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16384915 Riccall_Round_Walk_2
 #
 01 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8879     Ridgeway_nwn
 #
