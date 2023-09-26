@@ -113,10 +113,11 @@ MAILTO=ajtown
 41 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 50726    Sandstone_Trail
 42 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12014183 Sarsen_Way
 43 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8864     Saxon_Shore_Way
-44 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4657369  The_Selsey_Tram_Way
-45 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2177151  Settle_Loop
-46 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1970431  The_Serpent_Trail
-47 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8903372  Seven_Lochs_Trail
+44 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14080918 Selby_Horseshoe
+45 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4657369  The_Selsey_Tram_Way
+46 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2177151  Settle_Loop
+47 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1970431  The_Serpent_Trail
+48 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8903372  Seven_Lochs_Trail
 #
 01 13 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13159639 Severn_Way_Source
 02 13 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13159793 Severn_Way_Shrewsbury
