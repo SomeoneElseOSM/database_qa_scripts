@@ -189,10 +189,6 @@ MAILTO=ajtown
 37 13 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13400190 NCN1_SR7_2
 38 13 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8438340  NCN1_R7_3
 #
-# 5th NCN1, editing in process in Hull
-#
-51 13 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2452530  NCN1_R8
-#
 # NCN2 SR1 now has subrelations
 #
 10 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1950688  NCN2_1_SR
