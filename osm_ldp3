@@ -85,11 +85,7 @@ MAILTO=ajtown
 54 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9173178  EV2_North_Sea
 #
 10 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2764534  EV5_SR
-11 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2842302  EV5_UK_SR
-12 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13512079 EV5_UK_R1
-13 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8809     EV5_UK_NCN_16
-14 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13512081 EV5_UK_R2
-15 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13502893 EV5_Channel
+11 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2842302  EV5_UK_R
 #
 30 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1207220  EV12_SR
 31 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9476239  EV12_SR_UK
@@ -110,6 +106,7 @@ MAILTO=ajtown
 46 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9476220  EV12_UK_8
 47 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9476219  EV12_UK_9
 48 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2767188  EV12_UK_10
+49 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13502893 EV12_Channel
 #
 00 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3578959  GSG_SR
 01 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 12885716 GSG_LK
@@ -524,6 +521,8 @@ MAILTO=ajtown
 #
 51 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1970073  NCN442_R
 52 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 65903    NCN442_C
+#
+01 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8809     NCN_r16
 #
 11 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1761919  TPT_rcn
 12 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5699311  Moors_to_Sea
