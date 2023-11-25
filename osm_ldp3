@@ -467,19 +467,35 @@ MAILTO=ajtown
 03 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9487     NCN65_R
 04 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 17883    NCN66_R
 05 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 357215   NCN67_R
+#
 06 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11237    NCN68_R
+07 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 4260226  NCN68_A1
+08 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2425699  NCN68_A1
+#
 07 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 37540    NCN69_R
-08 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 162996   NCN71_R
+08 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11113    NCN70_R
+#
+09 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 162996   NCN71_R
+10 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9480716  NCN71_A1
+11 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9480718  NCN71_A2
+#
 09 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 152157   NCN72_R
 #
 11 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11361    NCN73_R1
 12 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1328554  NCN73_R2
 #
-31 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 184965   NCN74_R
+31 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 184965   NCN74_R1
+32 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 6413919  NCN74_R2
+33 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13317477 RCN74_R3
+34 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 4777369  RCN74_L1
+#
 32 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11025    NCN75_R
 33 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2519639  NCN76_R
 34 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 16513    NCN77_R
-35 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 31004    NCN78_R
+#
+35 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 31004    NCN78_R1
+36 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 253310   NCN78_R2
+#
 36 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 90999    NCN81_R
 37 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 116667   NCN82_R
 #
@@ -487,6 +503,17 @@ MAILTO=ajtown
 52 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2012352  NCN84_P
 #
 11 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2513018  NCN85_R
+#
+12 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2941541  NCN88_R1
+13 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 6996844  NCN88_R2
+#
+14 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 938142   NCN91_R
+15 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1119107  NCN92_R
+16 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 938144   NCN94_R
+17 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 963389   NCN96_R
+18 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 973269   NCN97_R
+19 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 931223   NCN99_R
+#
 12 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8150192  NCN110_R
 13 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3671295  NCN125_R
 14 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 4247284  NCN136_R
@@ -561,6 +588,10 @@ MAILTO=ajtown
 50 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 99553    NCN276_R
 51 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 84177    NCN277_R
 52 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8496519  NCN278_R
+#
+53 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 21018    NCN288_R1
+54 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 21902    NCN288_R2
+#
 53 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5422375  NCN327_R
 54 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1493227  NCN334_R
 55 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5371783  NCN336_R
