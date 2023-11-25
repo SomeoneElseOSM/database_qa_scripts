@@ -119,53 +119,58 @@ MAILTO=ajtown
 # NCN1 has been substantially reengineered.  See also EV12.
 #
 20 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1992599   NCN1_SR1
-21 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 75880     NCN1_101
-22 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11322036  NCN1_102
-23 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 75894     NCN1_103
-24 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978999  NCN1_104
+#
+# National Route 1 Dover to Canterbury has an unnumbered alternative
+#
+21 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 75880     NCN1_1010
+22 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13718916  NCN1_101A
+#
+23 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11322036  NCN1_102
+24 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 75894     NCN1_103
+25 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978999  NCN1_104
 #
 # NCN 1 Boston to Lincoln has an alternative
 #
-25 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979000  NCN1_1050
-26 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978998  NCN1_1051
+26 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979000  NCN1_1050
+27 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978998  NCN1_1051
 #
 # NCN 1 Lincoln to Humber has an alternative
 #
-27 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978996  NCN1_1060
-28 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978997  NCN1_1061
+28 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978996  NCN1_1060
+29 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978997  NCN1_106A
 #
-29 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15975674  NCN1_107
+30 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15975674  NCN1_107
 #
 # NCN 1 Tees to Tyne has a child relation
 #
-30 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977857  NCN1_1080
-31 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977856  NCN1_1081
+31 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977857  NCN1_1080
+32 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977856  NCN1_1081
 #
-32 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977855  NCN1_109
+33 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977855  NCN1_109
 #
 # NCN 1 Alnmouth to Berwick-upon-Tweed has a child relation and other adjacent relations
 #
-33 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977925  NCN1_1100
-34 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977880  NCN1_1101
-35 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977881  NCN1_1102
-36 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977882  NCN1_1103
+34 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977925  NCN1_1100
+35 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977880  NCN1_1101
+36 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977881  NCN1_1102
+37 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15977882  NCN1_1103
 #
-37 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978436  NCN1_111
-38 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978435  NCN1_112
-39 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978434  NCN1_113
+38 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978436  NCN1_111
+39 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978435  NCN1_112
+40 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978434  NCN1_113
 #
 # NCN 1 Loch Leven to Dundee has alternatives
 #
-40 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978437  NCN1_1140
-41 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978433  NCN1_1141
+41 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978437  NCN1_1140
+42 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15978433  NCN1_1141
 #
 # NCN 1 Dundee to Tain has alternatives
 #
-42 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 254838    NCN1_1150
-43 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979541  NCN1_1151
-44 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979542  NCN1_1152
-45 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979543  NCN1_1153
-46 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979544  NCN1_1154
+43 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 254838    NCN1_1150
+44 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979541  NCN1_1151
+45 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979542  NCN1_1152
+46 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979543  NCN1_1153
+47 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 15979544  NCN1_1154
 #
 51 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13512084 NCN1_AL01_SR
 52 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10564433 NCN1_AL01_1
