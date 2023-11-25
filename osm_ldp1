@@ -345,6 +345,7 @@ MAILTO=ajtown
 59 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3966747  England_Coast_Path_North_Gare_to_South_Bents
 00 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11565736 England_Coast_Path_South_Bents_to_Amble
 01 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12798818 England_Coast_Path_Hunstanton_to_the_Humber
+02 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16312445 England_Coast_Path_Bridlington_to_Filey_Brigg
 #
 20 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102329  Essex_Way_Superrelation
 21 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 68615    Essex_Way_Epping
