@@ -634,7 +634,13 @@ MAILTO=ajtown
 45 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9649     Offas_Dyke_Path
 46 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 455204   Old_Sarum_Way
 47 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3720599  Orange_Way
-48 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 165638   Ouse_Valley_Way
+#
+50 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 165638   Ouse_Valley_Way_SR
+51 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788802 Ouse_Valley_Way_R1
+52 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788801 Ouse_Valley_Way_R2
+53 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788800 Ouse_Valley_Way_R3
+54 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788799 Ouse_Valley_Way_R4
+#
 49 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8271588  Outer_Aylesbury_Ring
 50 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 71493    Oxford_Canal_Walk
 51 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 66774    Oxford_Greenbelt_Way
