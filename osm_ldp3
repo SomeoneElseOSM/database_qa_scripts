@@ -308,8 +308,9 @@ MAILTO=ajtown
 51 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 32019    NCN12_R
 52 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10013734 NCN12_L1
 53 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10584890 NCN12_L2
-54 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10584889 NCN12_L3
-55 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10584888 NCN12_L4
+55 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 16791242 NCN12_ASR
+55 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10584889 NCN12_A1
+55 17 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 16791831 NCN12_A2
 #
 10 18 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10582055 NCN13_SR1
 #
