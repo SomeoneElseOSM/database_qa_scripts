@@ -232,12 +232,7 @@ MAILTO=ajtown
 12 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13724261 NCN2_1_2
 13 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13725725 NCN2_1_3
 14 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13725878 NCN2_1_4
-#
-# National Cycle Route 2 South Mundham to Christchurch has a diversion
-#
-15 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13725899 NCN2_1_50
-16 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13956895 NCN2_1_51
-#
+15 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13725899 NCN2_1_5
 17 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13725970 NCN2_1_6
 18 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13726038 NCN2_1_7
 19 14 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13726055 NCN2_1_8
