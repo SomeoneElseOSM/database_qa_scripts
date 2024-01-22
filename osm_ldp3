@@ -478,8 +478,9 @@ MAILTO=ajtown
 10 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11113    NCN70_R
 #
 11 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 162996   NCN71_R
-12 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9480716  NCN71_A1
-13 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9480718  NCN71_A2
+# See https://www.openstreetmap.org/changeset/146448471
+#12 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9480716  NCN71_A1
+#13 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9480718  NCN71_A2
 #
 14 03 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 152157   NCN72_R
 #
