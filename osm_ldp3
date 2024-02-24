@@ -387,8 +387,9 @@ MAILTO=ajtown
 31 22 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 101440   NCN27_R1
 32 22 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8202909  NCN27_R2
 #
-41 22 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2913887  NCN28_R1
-42 22 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5364828  NCN28_R2
+# See https://www.openstreetmap.org/relation/5364828
+41 22 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2913887  NCN28
+#42 22 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5364828  NCN28_R2
 #
 01 23 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 167055   NCN32_R
 #
