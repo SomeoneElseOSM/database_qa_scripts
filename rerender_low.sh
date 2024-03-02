@@ -4,7 +4,7 @@
 # This uses https://github.com/alx77/render_list_geo.pl .
 # The parameters below rerender zooms 1-12 for the UK and Ireland for "ajt".
 #
-# Copyright (C) 2021-2023  Andy Townsend
+# Copyright (C) 2021-2024  Andy Townsend
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

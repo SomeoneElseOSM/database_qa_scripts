@@ -5,7 +5,7 @@
 # First check that we have at least one argument.
 # Second argument, if passed, is a name.
 #
-# Copyright (C) 2021-2023  Andy Townsend
+# Copyright (C) 2021-2024  Andy Townsend
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

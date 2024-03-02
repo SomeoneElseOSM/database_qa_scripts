@@ -23,7 +23,7 @@
 # Lower zoom tiles that aren't dirtied likewise, but we're more tolerant of
 # older tiles.   Actually "rerender_low.sh" will rerender these much sooner.
 #
-# Copyright (C) 2021-2023  Andy Townsend
+# Copyright (C) 2021-2024  Andy Townsend
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
