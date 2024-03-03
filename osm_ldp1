@@ -415,10 +415,10 @@ MAILTO=ajtown
 48 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9455672  Heart_of_Wales_Line_Trail
 49 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 541128   Herefordshire_Trail
 #
-10 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102019  Hereward_Way_Superrelation
-11 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 91128    Hereward_Way_Ely
+#10 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102019  Hereward_Way_Superrelation
+#11 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 91128    Hereward_Way_Ely
 12 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102023  Hereward_Way_Oakham
-13 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102051  Hereward_Way_Whittlesey
+#13 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102051  Hereward_Way_Whittlesey
 #
 31 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11229078 Herriot_Way
 32 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8842     Hertfordshire_Way
