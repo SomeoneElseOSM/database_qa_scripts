@@ -1,4 +1,4 @@
 # (all times UTC)
 # m h  dom mon dow   command
-42 06 * * * /home/renderaccount/bin/report_database_size.sh
+42 06 * * * /usr/local/sbin/report_database_size.sh
 #

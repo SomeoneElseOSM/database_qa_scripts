@@ -3,12 +3,14 @@
 # -----------------------------------------------------------------------------
 # Create new "ajt2" and "ajt03" Garmin maps once a week
 # -----------------------------------------------------------------------------
-06 03 * * 3 /usr/local/sbin/garmin_map_etrex.sh
-06 03 * * 4 /usr/local/sbin/garmin_map_etrex_03.sh
+06 03 * * 3 /usr/local/sbin/garmin_map_etrex_02.sh europe great-britain
+06 03 * * 4 /usr/local/sbin/garmin_map_etrex_03.sh europe great-britain
 #
 # -----------------------------------------------------------------------------
 # Investigate changes to tag usage and mail them out.
 # -----------------------------------------------------------------------------
-04 08  *   *   *     /home/ajtown/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_style
-06 08  *   *   *     /home/ajtown/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_mkgmap_ajt02
-08 08  *   *   *     /home/ajtown/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_mkgmap_ajt03
+04 08  *   *   *     /home/username/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_style
+06 08  *   *   *     /home/username/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_mkgmap_ajt02
+08 08  *   *   *     /home/username/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_mkgmap_ajt03
+10 08  *   *   *     /home/username/src/SomeoneElse-style/report_tag_usage_changes.sh someoneelse_vector_sve01
+#
