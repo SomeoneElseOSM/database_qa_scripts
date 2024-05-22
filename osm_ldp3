@@ -46,7 +46,10 @@ MAILTO=ajtown
 43 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10711501 EV1_IE_Nouth_Galway
 44 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10711500 EV1_IE_Clare
 45 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10711687 EV1_IE_Limerick
-46 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 12885715 EV1_IE_Limerick_Greenway
+#
+# This relation now deleted byt way still exists
+# 46 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 12885715 EV1_IE_Limerick_Greenway
+#
 47 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 12898270 EV1_IE_more_Limerick
 #
 00 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10788035 EV1_IE_Kerry_SR
