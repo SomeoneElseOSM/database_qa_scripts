@@ -1,10 +1,12 @@
 # (all times UTC)
 # m h  dom mon dow   command
 # -----------------------------------------------------------------------------
-# Create new "ajt2" and "ajt03" Garmin maps once a week
+# Create new "ajt03" Garmin maps once a week of Great Britain and Ireland
+# "ajt02" maps only run once a month at a different time so as not to collide.
 # -----------------------------------------------------------------------------
-06 03 * * 3 /usr/local/sbin/garmin_map_etrex_02.sh europe great-britain
-06 03 * * 4 /usr/local/sbin/garmin_map_etrex_03.sh europe great-britain
+06 14 * 3 * /usr/local/sbin/garmin_map_etrex_02.sh europe great-britain
+06 05 * * 5 /home/ajtown/src/mkgmap_style_ajt/garmin_map_etrex_03.sh europe great-britain
+06 05 * * 3 /home/ajtown/src/mkgmap_style_ajt/garmin_map_etrex_03.sh europe ireland-and-northern-ireland
 #
 # -----------------------------------------------------------------------------
 # Investigate changes to tag usage and mail them out.
