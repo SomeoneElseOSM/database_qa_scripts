@@ -304,9 +304,12 @@ MAILTO=ajtown
 02 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3644261  Dart_Valley_Trail
 03 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3747693  Little_Dart_Ridge
 04 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7152429  Dales_High_Way
+#
 05 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 29302    Dales_Way
-06 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5352963  Dales_Way_Link
-07 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8148367  Dales_Way_Harrogate_Link
+06 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5352963  Dales_Way_Link_Leeds
+07 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17696422 Dales_Way_Link_Bradford
+08 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8148367  Dales_Way_Link_Harrogate
+#
 08 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1394447  DArcy_Dalton_Way
 09 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1754624  Dava_Way
 10 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5612599  Deeside_Way
