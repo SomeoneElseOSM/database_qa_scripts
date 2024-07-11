@@ -194,7 +194,7 @@ MAILTO=ajtown
 24 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10041318 NCN1_AP04
 25 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10564909 NCN1_CO05
 26 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8438413  NCN1_CO06
-27 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9568075  NCN1_CO07
+#27 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9568075  NCN1_CO07
 28 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10589729 NCN1_EX08
 29 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9723408  NCN1_CO09
 30 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9844017  NCN1_CO10
@@ -372,8 +372,8 @@ MAILTO=ajtown
 11 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13389352 NCN21_1
 12 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11367233 NCN21_2
 13 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11367232 NCN21_AL1
-14 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9567748  NCN21_CO1
-15 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9568075  NCN21_CO2
+#14 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9567748  NCN21_CO1
+#15 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9568075  NCN21_CO2
 #
 31 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 67578    NCN22_R1
 32 21 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 36311    NCN22_R2
