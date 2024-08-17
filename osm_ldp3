@@ -186,7 +186,9 @@ MAILTO=ajtown
 05 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8475800  NCN1_AL06
 06 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11107866 NCN1_AL07
 07 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10773222 NCN1_AL08
-08 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11048304 NCN1_L09
+#
+# Relation deleted, see https://www.openstreetmap.org/changeset/154121813
+# 08 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11048304 NCN1_L09
 #
 21 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10564434 NCN1_CO01
 22 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8436589  NCN1_AP02
@@ -206,11 +208,11 @@ MAILTO=ajtown
 36 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9067786  NCN1_CO16
 #
 # 2nd NCN1
-#
-51 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769853 NCN1_201
-52 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769854 NCN1_202
-53 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769855 NCN1_203
-54 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769852 NCN1_204
+# Relations now deleted.  See https://www.openstreetmap.org/changeset/154089063
+# 51 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769853 NCN1_201
+# 52 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769854 NCN1_202
+# 53 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769855 NCN1_203
+# 54 12 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 11769852 NCN1_204
 #
 # 3rd NCN1
 #
