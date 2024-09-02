@@ -37,9 +37,10 @@ MAILTO=ajtown
 06 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10686540 EV1_IE_Sligo
 07 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10686847 EV1_IE_North_Mayo
 #
-20 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1534823  EV1_IE_GWG_SR
+# A couple of these now deleted:
+#20 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1534823  EV1_IE_GWG_SR
 21 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13663393 EV1_IE_GWG_R1
-22 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13663392 EV1_IE_GWG_R2
+#22 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13663392 EV1_IE_GWG_R2
 #
 41 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 907247   EV1_IE_Westport
 42 08 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 10701961 EV1_IE_North_Galway
