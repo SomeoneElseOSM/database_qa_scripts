@@ -5,7 +5,7 @@
 # This script is only useful if the only databases on the server are for
 # serving tiles.
 #
-# Copyright (C) 2021-2024  Andy Townsend
+# Copyright (C) 2021-2025  Andy Townsend
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
