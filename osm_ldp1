@@ -434,7 +434,30 @@ MAILTO=ajtown
 41 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7853451  Fungle_Road
 42 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 69312    Glevum_Way
 43 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9012     Gloucestershire_Way
-44 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 919241   The_Gower_Way
+#
+50 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16846803  GM_Ringway_Superrelation
+51 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16846619  GM_Ringway_Stage_01
+52 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16846802  GM_Ringway_Stage_02
+53 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16847611  GM_Ringway_Stage_03
+54 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16847679  GM_Ringway_Stage_04
+55 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16850932  GM_Ringway_Stage_05
+56 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16850984  GM_Ringway_Stage_06
+57 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16854507  GM_Ringway_Stage_07
+58 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16855257  GM_Ringway_Stage_08
+59 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16855294  GM_Ringway_Stage_09
+00 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16862984  GM_Ringway_Stage_10
+01 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16863028  GM_Ringway_Stage_11
+02 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16869113  GM_Ringway_Stage_12
+03 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16869809  GM_Ringway_Stage_13
+04 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16886356  GM_Ringway_Stage_14
+05 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16886992  GM_Ringway_Stage_15
+#06 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh norelyet  GM_Ringway_Stage_16
+#07 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh norelyet  GM_Ringway_Stage_17
+#08 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh norelyet  GM_Ringway_Stage_18
+#09 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh norelyet  GM_Ringway_Stage_19
+#10 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh norelyet  GM_Ringway_Stage_20
+#
+21 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 919241   The_Gower_Way
 #
 01 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 126572   Great_Glen_Way
 02 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11698144 Great_Glen_Way_High_Route
