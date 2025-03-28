@@ -30,7 +30,7 @@ MAILTO=ajtown
 #
 11 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 50288    Pennine_Bridleway
 #
-30 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4080347  Pennine_Way_Superrelation
+30 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4080347  Pennine_Way_SR
 31 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4080403  Pennine_Way_Edale_to_Crowden
 32 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4082615  Pennine_Way_Crowden_to_Standedge
 33 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4086804  Pennine_Way_Standedge_to_Warland_Reservoir
@@ -48,7 +48,7 @@ MAILTO=ajtown
 #
 01 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2727980  Cosán_na_Naomh
 #
-30 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13183086 Peak_District_Boundary_Walk_Superrelation
+30 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13183086 Peak_District_Boundary_Walk_SR
 31 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12317660 Peak_District_Boundary_Walk_1
 32 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13182541 Peak_District_Boundary_Walk_2
 33 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13190107 Peak_District_Boundary_Walk_3
@@ -138,7 +138,7 @@ MAILTO=ajtown
 01 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7764220  Simon_Evans_Way
 02 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2164034  Silurian_Way
 #
-20 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9486611  Sk2Cy_Superroute
+20 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9486611  Sk2Cy_SR
 21 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9661906  Sk2Cy_a
 22 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11246016 Sk2Cy_b
 #
@@ -173,7 +173,7 @@ MAILTO=ajtown
 24 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10725876 South_Tyne_Trail
 25 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 82009    Southwell_Trail
 #
-40 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2376086  SWCP_Superrelation
+40 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2376086  SWCP_SR
 41 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2191940  SWCP_01_Minehead
 42 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2205249  SWCP_02_Porlock
 43 17 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2371752  SWCP_03_Lynmouth
@@ -233,7 +233,7 @@ MAILTO=ajtown
 12 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1754431  Speyside Way_Tominoul_Spur
 13 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2313071  Spires_and_Steeples_Trail
 #
-30 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956970  Staffordshire_Way_Superrelation
+30 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956970  Staffordshire_Way_SR
 31 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 86542    Staffordshire_Way_Rushton_Spencer-Cannock_Chase
 32 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956986  Staffordshire_Way_Mow_Cop-Rushton_Spencer
 33 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1957003  Staffordshire_Way_Cannock_Chase_South
@@ -259,10 +259,11 @@ MAILTO=ajtown
 42 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13016936 Sussex_Diamond_Way
 43 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 331403   Sussex_Ouse_Valley_Way
 #
-00 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4079888  Tameside_Trail_Superrelation
+00 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4079888  Tameside_Trail_SR
 01 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2522002  Tameside_Trail_West
 02 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4079912  Tameside_Trail_East
 #
+20 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4097682  Teesdale_SR
 21 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 957011   Teesdale_Middleton
 22 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4097724  Teesdale_Dufton
 23 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4097745  Teesdale_Middlesbrough
@@ -284,7 +285,7 @@ MAILTO=ajtown
 55 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 115934   Thames_Down_Link
 56 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6676879  Thames_Estuary_Path
 #
-10 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20469    Thames_Path_Superrelation
+10 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20469    Thames_Path_SR
 11 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14519665 Thames_Path_Main
 12 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16300076 Thames_Path_Temp_Diversion
 13 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14519667 Thames_Path_Alt1
@@ -297,7 +298,7 @@ MAILTO=ajtown
 01 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 399667   Three_Castles_Path
 02 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7244316  Three_Castles_Walk_Monmouthshire
 #
-20 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 112661   Three_Choirs_Way_Superrelation
+20 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 112661   Three_Choirs_Way_SR
 21 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149262  Three_Choirs_Way_Gloucester
 22 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149263  Three_Choirs_Way_Hereford
 23 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149264  Three_Choirs_Way_Worcester
@@ -327,7 +328,7 @@ MAILTO=ajtown
 03 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3208651  Two_Rivers_Way
 04 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168860  The_Ullswater_Way
 #
-20 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11642511 Tyne_and_Wear_Heritage_Superroute
+20 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11642511 Tyne_and_Wear_Heritage_SR
 21 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11527371 Tyne_and_Wear_Heritage_Section_6
 22 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11638432 Tyne_and_Wear_Heritage_Section_7
 #
@@ -351,14 +352,14 @@ MAILTO=ajtown
 24 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3581336  Vaughan_Walk
 25 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7342961  Via_Beata
 #
-40 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4100294  Viking_Way_Superrelation
+40 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4100294  Viking_Way_SR
 41 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 404079   Viking_Way_Barnetby_to_Whitwell
 42 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4100350  Viking_Way_Barton-upon-Humber_to_Barnetby
 #
 01 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1281980  Violet_Hill_Loop_Walk
 02 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5272373  Wakefield_Way
 #
-20 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1820890  Wales_Coast_Path_Superroute
+20 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1820890  Wales_Coast_Path_SR
 21 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5480036  Wales_Coast_Path_Alternative
 22 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1820886  Wales_Coast_Path_Llyn_Coastal_Path
 23 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 77964    Wales_Coast_Path_Pembrokeshire_Coast_Path
@@ -406,7 +407,7 @@ MAILTO=ajtown
 33 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78280    Reelers_Trail_Witton_Weavers
 34 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78281    Tacklers_Trail_Witton_Weavers
 #
-40 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16327216 Wolds_Way_Superrelation
+40 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16327216 Wolds_Way_SR
 41 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78028    Wolds_Way_Main
 42 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16327210 Wolds_Way_Hull
 #
@@ -417,42 +418,42 @@ MAILTO=ajtown
 55 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
 56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
 #
-10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_Superrelation
-11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_Superelation
-12 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515206   E2_East_UK_Scotland_Superelation
-13 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4091313   E2_East_UK_England_NE_Superelation
-14 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976184   E2_East_UK_England_Yorkshire_Superelation
+10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_SR
+11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_SR
+12 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515206   E2_East_UK_Scotland_SR
+13 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4091313   E2_East_UK_England_NE_SR
+14 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976184   E2_East_UK_England_Yorkshire_SR
 15 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222021  E2_East_UK_England_Humber_bridge
-16 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976182   E2_East_UK_England_East_Mids_Superelation
-17 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976183   E2_East_UK_England_East_Superelation
+16 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976182   E2_East_UK_England_East_Mids_SR
+17 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976183   E2_East_UK_England_East_SR
 18 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222095  E2_East_England_East_Whittlesey
 19 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222096  E2_East_England_East_Cambridge
 #
-20 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14018636  E2_West_Superrelation
-21 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14018635  E2_West_UK_Superelation
-22 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13914778  E2_West_UK_Northeast_Superelation
-23 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13914777  E2_West_UK_England_Yorkshire_Superelation
+20 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14018636  E2_West_SR
+21 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14018635  E2_West_UK_SR
+22 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13914778  E2_West_UK_Northeast_SR
+23 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13914777  E2_West_UK_England_Yorkshire_SR
 #
-30 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4077796   E2_West_UK_England_NW_Superelation
+30 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4077796   E2_West_UK_England_NW_SR
 31 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222176  E2_West_England_Northwest_Standedge
 32 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222177  E2_West_England_Northwest_Broadbottom
 33 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222175  E2_West_England_Northwest_connector
 #
-40 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976230   E2_West_UK_England_WM_Superelation
+40 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976230   E2_West_UK_England_WM_SR
 41 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222182  E2_West_England_Westmids_Birmingham
 #
 42 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4073636   E2_West_England_Southwest
 43 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976229   E2_West_England_Southeast
 #
-50 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1175728   E8_Superrelation
+50 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1175728   E8_SR
 51 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3070643   E8_Ireland
 52 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2275549   E8_Great_Britain
 #
-10 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1254604   E9_Superrelation
+10 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1254604   E9_SR
 11 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959386   E9_Great_Britain_alt
 12 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959466   E9_GB_IOW_alt
 #
-30 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4139041  TPT_rwn_Superrelation
+30 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4139041  TPT_rwn_SR
 31 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2275550  TPT_rwn_Silkstone_Common_to_Wombwell
 32 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10521621 TPT_rwn_Wombwell_to_Selby
 33 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10529390 TPT_rwn_Selby_to_Hull
