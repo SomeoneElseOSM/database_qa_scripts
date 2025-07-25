@@ -507,8 +507,10 @@ MAILTO=ajtown
 #
 11 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2513018  NCN85_R
 #
+# 6996844 is now deleted.  The other two look a bit confused.
 12 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2941541  NCN88_R1
-13 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 6996844  NCN88_R2
+#13 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 6996844  NCN88_R2
+13 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5868477  NCN88_R3
 #
 14 04 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 938142   NCN91_R
 #
