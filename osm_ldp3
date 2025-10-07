@@ -264,19 +264,22 @@ MAILTO=ajtown
 15 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 14611905 NCN4_1L
 16 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 14611351 NCN4_1A
 #
-# English NCN5 superrelation:
-20 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 123318   NCN5_R1
+# English NCN5 superrelations:
+20 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284290 NCN5_SR1
+21 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 123318   NCN5_SR2
 # English NCN5 constituents, in current order:
-21 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284288 NCN5_R11
-22 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 359098   NCN5_R12
-23 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284287 NCN5_R13
-24 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466687  NCN5_CO2
-25 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466685  NCN5_CO1
-26 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466688  NCN5_CO3
-27 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466686  NCN5_CO4
-28 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19283641 NCN5_R13
+22 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 359098   NCN5_R01
+23 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284288 NCN5_R02
+24 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284285 NCN5_R03
+25 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284284 NCN5_R04
+26 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284287 NCN5_AL1
+27 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284286 NCN5_AL2
+28 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466687  NCN5_CO1
+29 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466685  NCN5_CO2
+30 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466688  NCN5_CO3
+31 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9466686  NCN5_CO4
 # English NCN5 has a diversion:
-29 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13685224 NCN5_R2D
+29 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13685224 NCN5_D01
 #
 51 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 12461    NCN6_R
 52 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13113454 NCN6_D1
