@@ -462,6 +462,9 @@ MAILTO=ajtown
 #
 01 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 126572   Great_Glen_Way
 02 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11698144 Great_Glen_Way_High_Route
+03 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19426549 Great_Glen_Way_Alts
+04 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19426550 Great_Glen_Way_High_Invermorsiton
+05 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19426689 Great_Glen_Way_Alt_Carb
 #
 21 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3170152  Great_Trossachs_Path
 #
