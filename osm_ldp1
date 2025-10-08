@@ -395,8 +395,8 @@ MAILTO=ajtown
 46 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17320572 England_Coast_Path_Hunstanton_Sutton_Bridge
 47 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 18038767 England_Coast_Path_Sutton_Bridge_Skegness
 48 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12798818 England_Coast_Path_Skegness_Mablethorpe
-# England_Coast_Path_Mablethorpe_Humber no relation yet
-# England_Coast_Path_Humber_Easington no relation yet
+49 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19509918 England_Coast_Path_Mablethorpe_Humber
+50 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19514585 England_Coast_Path_Humber_Easington
 51 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16312445 England_Coast_Path_Easington_Filey_Brigg
 52 18 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11488440 England_Coast_Path_Filey_Brigg_Newport_Bridge
 # England_Coast_Path_Newport_Bridge_North_Gare no relation yet
