@@ -243,6 +243,8 @@ MAILTO=ajtown
 30 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2376424  SWCP_50_Ferrybridge
 31 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2376430  SWCP_51_Lulworth
 32 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2376455  SWCP_52_Worth_Matravers
+33 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14086280 SWCP_Mansands_alt
+34 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15701056 SWCP_alt
 #
 51 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1953181  Sowe_Valley_Footpath
 #
