@@ -129,7 +129,7 @@ MAILTO=ajtown
 42 10 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1756393  Annandale_Way
 #
 00 11 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1120847  Antrim_Hills_Way_SR_and_ways
-01 11 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1462336  Antrim_Hills_Way_UWS
+# See also 1462336  UW_Antrim_Hills_Way
 #
 21 11 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4640636  Arran_Coastal_Way
 22 11 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7079695  Arran_Coastal_Alt_Goat_Fell
@@ -250,6 +250,10 @@ MAILTO=ajtown
 35 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1085461  Carlingford_Slieve_Foye
 36 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1085462  Carlingford_Ravensdale
 37 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1756395  Cateran_Trail
+#
+38 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1462459  Causeway_Coast_and_Glens_9
+39 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1474899  Causeway_Coast_and_Glens_14
+#
 38 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2205722  Cavan_Way
 39 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1069677  Centenery_Way_Derbyshire
 40 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 75266    Centenery_Way_Warwickshire
@@ -319,6 +323,12 @@ MAILTO=ajtown
 13 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1842172  Devonshire_Heartland_Way
 14 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 271196   Diamond_Way
 15 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 21664    The_Dingle_Way
+#
+16 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1086048  Donegal_Rosses_Way
+16 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14568953 Donegal_Errigal_Way
+17 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14581058 Donegal_Colmcille_Way
+18 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14582999 Donegal_Finn_Way
+#
 16 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1201604  Downs_Link
 17 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1501073  Dronfield_Rotary_Walk
 18 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 286707   Dublin_Mountains_Way
@@ -573,9 +583,10 @@ MAILTO=ajtown
 55 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522351 Lea_Valley_Walk_5
 56 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522352 Lea_Valley_Walk_6
 57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522353 Lea_Valley_Walk_7
-# renumber
-00 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 919106   Lecale_Way_SR
-01 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1621230  Lecale_Way_UWS
+#
+10 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 919106   Lecale_Way_SR_and_ways
+10 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 18269162 Lecale_Way_01
+# See also 1621230  UW_Lecale_Way_02
 #
 21 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2128007  Leafy_Loop
 02 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5012105  Leeds_Country_Way
@@ -688,6 +699,10 @@ MAILTO=ajtown
 51 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3748275  National_Forest_Way
 52 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 85093    Nene_Way
 53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1718871  Newcastle_Way
+#
+# See also 15481627 UW_Newry_Canal_Way
+53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1015887  Newry_Canal_Way
+#
 54 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 302080   Nidderdale_Way
 #
 # No Nore Valley Way Superroute
@@ -700,8 +715,8 @@ MAILTO=ajtown
 59 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12769806 North_Bucks_Way
 00 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 63113    North_Cheshire_Way
 #
-20 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2665201  North_Down_Coastal_Path_SR
-21 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 917969   North_Down_Coastal_Path_UWS
+# See also 917969   UW_North_Down_Coastal_Path
+20 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2665201  North_Down_Coastal_Path_SR_and_ways
 #
 40 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1957071  North_Downs_Way_SR
 41 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1957110  North_Downs_Way_Western
@@ -714,6 +729,9 @@ MAILTO=ajtown
 #
 20 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1956134  North_Sea_Trail_SR
 21 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11573745 North_Sea_Trail_England
+#
+# See also 1160116  UW_North_Sperrins_Way
+30 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2665246  North_Sperrins_SR_and_ways
 #
 41 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11508166 Northumberland_Coast_Path
 42 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 398069   North_Wales_Path

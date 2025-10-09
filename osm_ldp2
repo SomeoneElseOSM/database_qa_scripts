@@ -361,18 +361,24 @@ MAILTO=ajtown
 22 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11638432 Tyne_and_Wear_Heritage_Section_7
 #
 40 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 918951   Ulster_Way_SR_and_Ways
-41 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1115817  Ulster_Way_Link_Sections
-42 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1116068  Lagan_Towpath
-43 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 917588   Mourne_Way
-44 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1015887  Newry_Canal_Way
-45 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1015851  Ring_of_Gullion_Way
-46 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1017125  Sliabh_Beagh_Way
-47 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1017126  Cuilcagh_Way
-48 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1160116  North_Sperrins_Way
-49 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1462459  Causeway_Coast_and_Glens_9
-50 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1474899  Causeway_Coast_and_Glens_14
-51 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085994  Causeway_Coast_Way
-52 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1120852  Moyle_Way
+# See also 1120847  Antrim_Hills_Way_SR_and_ways
+41 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1462336  UW_Antrim_Hills_Way
+42 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085994  UW_Causeway_Coast_Way
+43 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1017126  UW_Cuilcagh_Way
+44 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1116068  UW_Lagan_Towpath
+# See also 919106   Lecale_Way_SR_and_ways
+45 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1621230  UW_Lecale_Way_02
+46 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 917588   UW_Mourne_Way
+47 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1120852  UW_Moyle_Way
+# See also 2665201  North_Down_Coastal_Path_SR_and_ways
+48 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 917969   UW_North_Down_Coastal_Path
+# See also 2665246  North_Sperrins_SR_and_ways
+49 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1160116  UW_North_Sperrins_Way
+50 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1015851  UW_Ring_of_Gullion_Way
+51 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1017125  UW_Sliabh_Beagh_Way
+# See also 1015887  Newry_Canal_Way
+52 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15481627 UW_Newry_Canal_Way
+53 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1115817  UW_Link_Sections
 #
 21 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1766483  Usk_Valley_Walk
 22 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12835687 The_Vale_Way
