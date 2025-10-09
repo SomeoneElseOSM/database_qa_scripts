@@ -689,7 +689,11 @@ MAILTO=ajtown
 52 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 85093    Nene_Way
 53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1718871  Newcastle_Way
 54 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 302080   Nidderdale_Way
-55 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1866848  Nore_Valley_Way
+#
+# No Nore Valley Way Superroute
+55 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 15619107 Nore_Valley_Way_01
+56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1866848  Nore_Valley_Way_02
+#
 56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 77959    Norfolk_Coast_Path
 57 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1707659  North_Arden_Heritage_Trail
 58 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2471547  North_Berwyn_Way
