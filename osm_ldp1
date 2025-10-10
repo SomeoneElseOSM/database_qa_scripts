@@ -297,6 +297,9 @@ MAILTO=ajtown
 42 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10800125 Colne_Valley_Path
 43 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12772894 Colne_Valley_Trail
 44 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2538845  Colne_Valley_Way
+#
+45 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19215390 Columban_Way_IE
+#
 45 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6164699  Cornwall_Mineral_Tramways
 46 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7604258  Corvedale_Three_Castles_Walk
 47 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 445601   Cotswold_Link
