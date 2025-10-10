@@ -120,6 +120,9 @@ MAILTO=ajtown
 03 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3579135  GSG_NK_2
 04 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2709357  GSG_NK_3
 #
+10 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2820053  AV_SR
+11 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2820043  AV_England
+#
 # NCN1 has been substantially reengineered.  See also EV12.
 #
 20 11 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1992599   NCN1_SR1
