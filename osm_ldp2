@@ -286,13 +286,19 @@ MAILTO=ajtown
 35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
 36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
 37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
-38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 357955   Stour_Valley_Path
-39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 85775    Stour_Valley_Way
-40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2858232  Strawberry_Trail
-41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1140775  Suffolk_Coast_Path
-42 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1002129  Sussex_Border_Path
-43 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13016936 Sussex_Diamond_Way
-44 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 331403   Sussex_Ouse_Valley_Way
+#
+40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926907 Stour_Valley_Path_SR
+41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926906 Stour_Valley_Path_01
+42 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 357955   Stour_Valley_Path_02
+43 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15927274 Stour_Valley_Path_03
+#
+39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 85775    Stour_Valley_Way_Dorset
+40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8135     Stour_Valley_Walk_Kent
+41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2858232  Strawberry_Trail
+42 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1140775  Suffolk_Coast_Path
+43 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1002129  Sussex_Border_Path
+44 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13016936 Sussex_Diamond_Way
+45 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 331403   Sussex_Ouse_Valley_Way
 #
 00 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4079888  Tameside_Trail_SR
 01 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2522002  Tameside_Trail_West
@@ -334,36 +340,50 @@ MAILTO=ajtown
 01 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 399667   Three_Castles_Path
 02 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7244316  Three_Castles_Walk_Monmouthshire
 #
+# One loop (with SR):
 20 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 112661   Three_Choirs_Way_SR
-21 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149262  Three_Choirs_Way_Gloucester
-22 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149263  Three_Choirs_Way_Hereford
-23 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149264  Three_Choirs_Way_Worcester
+21 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149262  Three_Choirs_Way_Gloucester_to_Hereford
+22 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149263  Three_Choirs_Way_Hereford_to_Worcester
+23 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3149264  Three_Choirs_Way_Worcester_to_Gloucester
+#
+# one line (no SR):
+26 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6088565  Three_Choirs_Way_Hollybush_to_Gloucester
+27 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168636  Three_Choirs_Way_Gloucester_to_Kilcot
+28 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168637  Three_Choirs_Way_Kilcot_to_Woolhope
+29 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168640  Three_Choirs_Way_Woolhope_to_Withington
+30 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168639  Three_Choirs_Way_Withington_to_Stanford_Bishop
+31 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168638  Three_Choirs_Way_Stanford_Bishop_to_Worcester
+#
+# and two random ones:
+24 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168641  Three_Choirs_Way_Worcester_to_Malvern
+25 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6088563  Three_Choirs_Way_Malvern_Hills
 #
 41 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2173689  Three_Forests_Way
 42 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756632  Three_Lochs_Way
 43 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5643210  Three_Peaks_Walk_Cheshire
 44 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5671418  Three_Peaks_Walk_Yorkshire
-45 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10834150 Three_Saints_Way_Killin
-46 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 302973   Three_Shires_Way
-47 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2175050  Tipperary_Heritage_Way
-48 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6184772  Tiverton_Cullompton_Circular
-49 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1969406  Tóchar_Phádraig
-50 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1732463  Todmorden_Centenary_Way
-51 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085451  Tollymore_Drinns
-52 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085449  Tollymore_River
-53 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085450  Tollymore_Mountain
-54 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085448  Tollymore_Arboretum
-55 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 104743   Torbay_Totnes_Trail
-56 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14713076 Tory_Way
-57 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12807812 Trail_of_the_7_Lochs
-58 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 162862   Trent_Valley_Way
-59 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1745534  Tunbridge_Wells_Circular_Walk
-00 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2374682  Two_Castles_Trail
-01 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 148927   Two_Counties_Way
-02 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 228450   Two_Moors_Way
-03 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1845277  Two_Saints_Way
-04 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3208651  Two_Rivers_Way
-05 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168860  The_Ullswater_Way
+45 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6373100  Three_Ridings_on_Foot 
+46 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10834150 Three_Saints_Way_Killin
+47 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 302973   Three_Shires_Way
+48 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2175050  Tipperary_Heritage_Way
+49 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6184772  Tiverton_Cullompton_Circular
+50 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1969406  Tóchar_Phádraig
+51 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1732463  Todmorden_Centenary_Way
+52 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085451  Tollymore_Drinns
+53 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085449  Tollymore_River
+54 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085450  Tollymore_Mountain
+55 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1085448  Tollymore_Arboretum
+56 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 104743   Torbay_Totnes_Trail
+57 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14713076 Tory_Way
+58 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12807812 Trail_of_the_7_Lochs
+59 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 162862   Trent_Valley_Way
+00 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1745534  Tunbridge_Wells_Circular_Walk
+01 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2374682  Two_Castles_Trail
+02 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 148927   Two_Counties_Way
+03 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 228450   Two_Moors_Way
+04 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1845277  Two_Saints_Way
+05 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3208651  Two_Rivers_Way
+06 23 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6168860  The_Ullswater_Way
 #
 20 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11642511 Tyne_and_Wear_Heritage_SR
 21 00 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11527371 Tyne_and_Wear_Heritage_Section_6
@@ -417,7 +437,8 @@ MAILTO=ajtown
 29 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2448117  Wales_Coast_Path_Meirionnydd
 #
 41 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7676     Wandle_Trail
-42 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7479897  Wats_Dyke_Way
+42 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6581679  Waterfall_Loop
+43 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7479897  Wats_Dyke_Way
 #
 01 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11597074 Way_of_Learning
 02 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11545216 Way_of_Life_Gainford_to_Escomb
@@ -448,8 +469,10 @@ MAILTO=ajtown
 #
 11 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2740     The_Wicklow_Way
 12 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6701121  Wilberforce_Way
-13 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2363465  Winchcombe Way_East
-14 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2310202  Winchcombe Way_West
+#
+20 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7701340  Winchcombe Way_SR
+21 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2363465  Winchcombe Way_East
+22 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2310202  Winchcombe Way_West
 #
 31 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 72516    Beamers_Trail_Witton_Weavers
 32 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 78272    Warpers_Trail_Witton_Weavers
