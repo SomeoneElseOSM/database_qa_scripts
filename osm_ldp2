@@ -276,19 +276,20 @@ MAILTO=ajtown
 13 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12934    Stevenage_STOOP_Link_6
 14 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11475    Stevenage_STOOP_Link_7
 #
-31 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 358939   St_Edmund_Way
-32 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1156074  St_Illtyds_Walk
-33 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
-34 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
-35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
-36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
-37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 357955   Stour_Valley_Path
-38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 85775    Stour_Valley_Way
-39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2858232  Strawberry_Trail
-40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1140775  Suffolk_Coast_Path
-41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1002129  Sussex_Border_Path
-42 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13016936 Sussex_Diamond_Way
-43 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 331403   Sussex_Ouse_Valley_Way
+31 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6950474  St_Bernards_Way
+32 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 358939   St_Edmund_Way
+33 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1156074  St_Illtyds_Walk
+34 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
+35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
+36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
+37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
+38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 357955   Stour_Valley_Path
+39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 85775    Stour_Valley_Way
+40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2858232  Strawberry_Trail
+41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1140775  Suffolk_Coast_Path
+42 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1002129  Sussex_Border_Path
+43 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13016936 Sussex_Diamond_Way
+44 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 331403   Sussex_Ouse_Valley_Way
 #
 00 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4079888  Tameside_Trail_SR
 01 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2522002  Tameside_Trail_West
@@ -465,7 +466,7 @@ MAILTO=ajtown
 12 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515206   E2_East_UK_Scotland_SR
 13 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4091313   E2_East_UK_England_NE_SR
 14 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976184   E2_East_UK_England_Yorkshire_SR
-15 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222021  E2_East_UK_England_Humber_bridge
+15 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16327221  E2_East_UK_England_Humber_bridge
 16 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976182   E2_East_UK_England_East_Mids_SR
 17 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1976183   E2_East_UK_England_East_SR
 18 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13222095  E2_East_England_East_Whittlesey
