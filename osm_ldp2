@@ -392,6 +392,9 @@ MAILTO=ajtown
 24 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3581336  Vaughan_Walk
 25 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7342961  Via_Beata
 #
+30 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11860709 Via_Francigena_SR
+31 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 282117   Via_Francigena_01
+#
 40 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4100294  Viking_Way_SR
 41 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 404079   Viking_Way_Barnetby_to_Whitwell
 42 01 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4100350  Viking_Way_Barton-upon-Humber_to_Barnetby
