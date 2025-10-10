@@ -66,9 +66,10 @@ MAILTO=ajtown
 44 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13169203 Peak_District_Boundary_Walk_14
 45 09 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12316549 Peak_District_Boundary_Walk_20
 #
-01 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11743021 A_Pennine_Journey
-02 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12026125 Pentland_Way
-03 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48379    Pilgrims_Trail
+01 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8209296  Peak_Pilgrimage
+02 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11743021 A_Pennine_Journey
+03 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12026125 Pentland_Way
+04 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48379    Pilgrims_Trail
 #
 20 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706316  Poets_Trail_SR
 21 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706314  Poets_Trail_ONeill
@@ -114,11 +115,12 @@ MAILTO=ajtown
 41 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 50726    Sandstone_Trail
 42 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12014183 Sarsen_Way
 43 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8864     Saxon_Shore_Way
-44 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14080918 Selby_Horseshoe
-45 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4657369  The_Selsey_Tram_Way
-46 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2177151  Settle_Loop
-47 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1970431  The_Serpent_Trail
-48 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8903372  Seven_Lochs_Trail
+44 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9491877  Sefton_Coastal_Path 
+45 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14080918 Selby_Horseshoe
+46 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4657369  The_Selsey_Tram_Way
+47 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2177151  Settle_Loop
+48 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1970431  The_Serpent_Trail
+49 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8903372  Seven_Lochs_Trail
 #
 01 13 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13159639 Severn_Way_Source
 02 13 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13159793 Severn_Way_Shrewsbury
@@ -260,9 +262,10 @@ MAILTO=ajtown
 #
 51 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1953181  Sowe_Valley_Footpath
 #
-11 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1026251  Speyside_Way
-12 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1754431  Speyside Way_Tominoul_Spur
-13 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2313071  Spires_and_Steeples_Trail
+11 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 958842   Spa_Trail
+12 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1026251  Speyside_Way
+13 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1754431  Speyside Way_Tominoul_Spur
+14 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2313071  Spires_and_Steeples_Trail
 #
 30 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956970  Staffordshire_Way_SR
 31 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 86542    Staffordshire_Way_Rushton_Spencer-Cannock_Chase
@@ -460,9 +463,10 @@ MAILTO=ajtown
 51 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9726642  The_Wokingham_Way
 52 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 73871    Worcestershire_Way
 53 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 72579    Wychavon_Way
-54 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 111662   Wychwood_Way
-55 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
-56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
+54 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8193963  Wyche_Way
+55 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 111662   Wychwood_Way
+56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
+57 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
 #
 10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_SR
 11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_SR

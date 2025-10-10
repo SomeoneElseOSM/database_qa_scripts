@@ -457,8 +457,10 @@ MAILTO=ajtown
 39 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3316861  Forest_Way
 40 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 69760    Frome_Valley_Walkway
 41 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7853451  Fungle_Road
-42 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 69312    Glevum_Way
-43 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9012     Gloucestershire_Way
+42 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9790971  Glenfarne_Greenway
+43 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 69312    Glevum_Way
+44 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9012     Gloucestershire_Way
+45 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 86534    Grand_Union_Canal_Walk 
 #
 50 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16846803  GM_Ringway_SR
 51 19 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16846619  GM_Ringway_Stage_01
@@ -504,6 +506,7 @@ MAILTO=ajtown
 03 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1330089  The_Grand_Canal_Way
 04 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1920617  Greensand_Ridge_Walk
 05 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 57416    Greensand_Way
+06 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 950543   Greensand_Way_Oxted_Spur
 #
 11 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3212473  Greenwich_Meridian_Trail
 12 21 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16376692 Greenwich_Meridian_Trail_Cambridge_Loop
