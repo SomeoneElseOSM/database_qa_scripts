@@ -83,10 +83,12 @@ MAILTO=ajtown
 48 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479822  EV2_UK_3
 49 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479821  EV2_UK_4
 50 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479817  EV2_UK_5
-51 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479816  EV2_UK_6
-52 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479815  EV2_UK_7
-53 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479814  EV2_UK_8
-54 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9173178  EV2_North_Sea
+51 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479816  EV2_UK_Putney
+52 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 13389284 EV2_UK_NotPutney
+53 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479816  EV2_UK_6
+54 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479815  EV2_UK_7
+55 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5479814  EV2_UK_8
+56 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 9173178  EV2_North_Sea
 #
 10 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2764534  EV5_SR
 11 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2842302  EV5_UK_R
@@ -745,10 +747,18 @@ MAILTO=ajtown
 37 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 4148368  NCN888_R
 38 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1761952  WoR
 #
-11 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1761919  TPT_rcn
-12 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5699311  Moors_to_Sea
-13 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2172667  High_Peak_Trail_lcn
-14 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3422897  Icknield_Way_Cycle_mtb
-15 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3144936  Peddars_Way_Cycle_Route
-16 09 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3459390  Ridgeway_ncn
+40 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1187755  NWT_SR
+41 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 17696112 NWT_NI_01
+42 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 17696109 NWT_NI_02
+43 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 17696108 NWT_NI_03
+44 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 17696110 NWT_NI_04
+45 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 17696111 NWT_IE
 #
+51 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1761919  TPT_rcn
+52 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 5699311  Moors_to_Sea
+53 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 2172667  High_Peak_Trail_lcn
+54 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3422897  Icknield_Way_Cycle_mtb
+55 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3144936  Peddars_Way_Cycle_Route
+56 10 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 3459390  Ridgeway_ncn
+#
+
