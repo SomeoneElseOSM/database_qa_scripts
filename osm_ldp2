@@ -518,15 +518,33 @@ MAILTO=ajtown
 # ------------------------------------------------------------------------------
 # Next, horse routes
 # ------------------------------------------------------------------------------
-01 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 49366    Bishop Bennet Way
+# nhn
+01 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6185982  Three_Rivers_Ride
+02 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 537430   Sabrina_Way
+03 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1770168  Icknield_Way_Trail_nhn
+04 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2282982  Peddars_Way_Bridle_Route
+#
+# rhn
+05 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4076898  Heart_of_Suffolk_Horse_Route
+06 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1605815  Stanton_Rides
+07 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19093571 London_Orbital_Bridleway_H25
+08 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10015571 Knowl_Hill_Bridleway_Circuit
+09 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10015570 Binfield_Bridleway_Circuit
+10 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6565505  Test_Way
+11 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4868380  Three_Downs_Link 
+12 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7373451  Isley_Downs_Riding_Route
+13 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1832946  Swans_Way
+14 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8209367  Peak_Horsepower_South_Peak_Loop
+15 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 49366    Bishop_Bennet_Way
+16 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5899255  West_Pennine_Moors_Bridleway
+17 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7185157  Mount_Lothian_Trail
+18 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7185155  Vogrie_Trail
+19 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7185156  Thornton_Trail
+20 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3931952  Esk_Valley_Trail
+21 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12808220 Trail_of_the_7_Lochs_horse
+22 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4043744  Humphrey_Kynaston_Way
+#
+# Not actually marked as RHN
 02 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 303343   Jack_Mytton_Way
-03 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 537430   Sabrina_Way
-04 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1770168  Icknield_Way_Trail_nhn
-05 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1832946  Swans_Way
-06 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2282982  Peddars_Way_Bridle_Route
-07 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4043744  Humphrey_Kynaston_Way
-08 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6185982  Three_Rivers_Ride
-09 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7185157  Mount_Lothian_Trail
-10 07 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12808220 Trail_of_the_7_Lochs_horse
 #
 
