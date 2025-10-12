@@ -503,6 +503,12 @@ MAILTO=ajtown
 56 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 61495    Wye_Valley_Walk
 57 04 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 65891    Wysis_Way
 #
+00 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971764 Wyre_Way_SR
+01 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 13190783 Wyre_Way_Fleetwood
+02 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971763 Wyre_Way_Shard_Bridge_Garstang
+03 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971838 Wyre_Way_Garstang_Abbeystead
+04 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971897 Wyre_Way_Tarnbrook_Loop
+#
 10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_SR
 11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_SR
 12 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515206   E2_East_UK_Scotland_SR

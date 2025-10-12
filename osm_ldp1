@@ -171,19 +171,20 @@ MAILTO=ajtown
 08 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1574096  Bonnie_Prince_Charlie_Walk
 09 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1713853  Borders_Abbeys_Way
 10 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 336921   Boudicca_Way
-11 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1573819  Bradford_Millennium_Way
-12 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 30892    The_Braids
-13 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3091545  The_Brenda_Parker_Way
-14 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2365565  Bristol_Triangular_City_Walk
-15 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1537369  Bronte_Way
-16 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5305388  Broxbourne_Woods_NNR_Trail 
-17 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7364653  Buckfastleigh_to_Totnes_Trail
-18 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6532111  Burren_Way
-19 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2121935  The_Butcombe_Trail
-20 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1731291  Calderdale_Way
-21 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1573805  Calder_Aire_Link
-22 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11661295 Cambrian_Way
-23 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5621423  Camel_Trail
+11 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19204847 Boyne_Valley_Camino 
+12 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1573819  Bradford_Millennium_Way
+13 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 30892    The_Braids
+14 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3091545  The_Brenda_Parker_Way
+15 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2365565  Bristol_Triangular_City_Walk
+16 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1537369  Bronte_Way
+17 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5305388  Broxbourne_Woods_NNR_Trail 
+18 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7364653  Buckfastleigh_to_Totnes_Trail
+19 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6532111  Burren_Way
+20 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2121935  The_Butcombe_Trail
+21 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1731291  Calderdale_Way
+22 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1573805  Calder_Aire_Link
+23 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11661295 Cambrian_Way
+24 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5621423  Camel_Trail
 #
 31 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8795681  Canterbury_Inner_Ring_Walk
 32 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8786539  Canterbury_Middle_Ring_Walk
@@ -347,6 +348,7 @@ MAILTO=ajtown
 14 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1842172  Devonshire_Heartland_Way
 15 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 271196   Diamond_Way
 16 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 21664    The_Dingle_Way
+17 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19229913 Ditchling_Beacon_to_Devils_Dyke
 #
 16 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1086048  Donegal_Rosses_Way
 16 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14568953 Donegal_Errigal_Way
@@ -623,15 +625,16 @@ MAILTO=ajtown
 31 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1756629  Kintyre_Way
 32 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1624090  Kirklees_Way
 33 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 183744   The_Kerry_Way
-34 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4638682  Kidsgrove_to_Stoke_Ridgeway
-35 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1494247  Kingfisher_Way
-36 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6688350  Knaresborough_Round
-37 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 67739    Knightley_Way
-38 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9474073  Lambourn_Valley_Way
-39 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 38386    Lancashire_Coastal_Way
-40 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10816296 Llwybr_y_Ffin_Landsker
-41 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1337853  Lark_Valley_Path
-42 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2921359  Lead_Mining_Trail 
+34 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1876787  Ketts_Country_Walk
+35 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4638682  Kidsgrove_to_Stoke_Ridgeway
+36 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1494247  Kingfisher_Way
+37 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6688350  Knaresborough_Round
+38 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 67739    Knightley_Way
+39 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9474073  Lambourn_Valley_Way
+40 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 38386    Lancashire_Coastal_Way
+41 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10816296 Llwybr_y_Ffin_Landsker
+42 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1337853  Lark_Valley_Path
+43 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2921359  Lead_Mining_Trail 
 #
 50 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16206    Lea_Valley_Walk_SR
 51 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522352 Lea_Valley_Walk_London_01
@@ -641,11 +644,12 @@ MAILTO=ajtown
 55 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14514800 Lea_Valley_Walk_London_05
 56 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522348 Lea_Valley_Walk_London_06
 57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522353 Lea_Valley_Walk_Luton_SR
-57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522347 Lea_Valley_Walk_Luton_01
-57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12870297 Lea_Valley_Walk_Luton_Leagrave_Link
-57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12870917 Lea_Valley_Walk_Luton_Luton_Parkway_Link_01
-57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522346 Lea_Valley_Walk_Luton_Luton_Parkway_Link_02
-57 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14514802 Lea_Valley_Walk_Luton_Parallel
+58 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522347 Lea_Valley_Walk_Luton_01
+59 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12870297 Lea_Valley_Walk_Luton_Leagrave_Link
+00 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12870917 Lea_Valley_Walk_Luton_Luton_Parkway_Link_01
+01 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522346 Lea_Valley_Walk_Luton_Luton_Parkway_Link_02
+02 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14514802 Lea_Valley_Walk_Luton_Parallel
+03 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19278538 Lea_Valley_Walk_Hatfield
 #
 10 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 919106   Lecale_Way_SR_and_ways
 10 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 18269162 Lecale_Way_01
