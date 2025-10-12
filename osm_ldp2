@@ -302,10 +302,11 @@ MAILTO=ajtown
 33 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19393612 St_Frideswides_Way
 34 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1156074  St_Illtyds_Walk
 35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17684067 St_Michaels_Way
-36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
-37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
-38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
-39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
+36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16178575 St_Patricks_Way_The_Pilgrim_Walk
+37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
+38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
+39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
+40 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
 #
 40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926907 Stour_Valley_Path_SR
 41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926906 Stour_Valley_Path_01
@@ -346,6 +347,10 @@ MAILTO=ajtown
 53 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1152372  Tennyson_Trail
 54 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9061     Test_Way
 55 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3471435  Thame_Valley_Walk
+#
+11 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14569697 Thames_and_Severn_Way
+12 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14569697 Wheelchair_Accessible_Thames_and_Severn_Way
+#
 56 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 115934   Thames_Down_Link
 57 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6676879  Thames_Estuary_Path
 #
@@ -528,6 +533,8 @@ MAILTO=ajtown
 02 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971763 Wyre_Way_Shard_Bridge_Garstang
 03 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971838 Wyre_Way_Garstang_Abbeystead
 04 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18971897 Wyre_Way_Tarnbrook_Loop
+#
+11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16335779 The_Yoredale_Way
 #
 10 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956169   E2_East_SR
 11 05 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959505   E2_East_UK_SR

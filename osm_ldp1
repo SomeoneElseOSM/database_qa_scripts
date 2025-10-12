@@ -184,8 +184,9 @@ MAILTO=ajtown
 20 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2121935  The_Butcombe_Trail
 21 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1731291  Calderdale_Way
 22 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1573805  Calder_Aire_Link
-23 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11661295 Cambrian_Way
-24 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5621423  Camel_Trail
+23 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16271136 Callan_Abbey_Meadow_Walk
+24 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11661295 Cambrian_Way
+25 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5621423  Camel_Trail
 #
 31 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8795681  Canterbury_Inner_Ring_Walk
 32 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8786539  Canterbury_Middle_Ring_Walk
@@ -384,7 +385,8 @@ MAILTO=ajtown
 34 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 409502   Eden_Valley_Walk
 35 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7906617  Eglish_Heritage_Trail
 36 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8128     Elham_Valley_Way
-37 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2378090  Erme_Plym_Trail
+37 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16219399 Elizabeth_Way
+38 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2378090  Erme_Plym_Trail
 #
 50 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3971851  England_Coast_Path_SR
 51 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17052594 England_Coast_Path_Gretna_Allonby
@@ -533,6 +535,43 @@ MAILTO=ajtown
 04 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19426550 Great_Glen_Way_High_Invermorsiton
 05 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19426689 Great_Glen_Way_Alt_Carb
 #
+20 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 214454   Green_Chain_Walk_SR
+21 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12696392 Green_Chain_Walk_01
+22 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12944392 Green_Chain_Walk_02
+23 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12951688 Green_Chain_Walk_03
+24 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500439 Green_Chain_Walk_04
+25 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13835360 Green_Chain_Walk_05
+26 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13835736 Green_Chain_Walk_06
+27 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13835916 Green_Chain_Walk_07
+28 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13836671 Green_Chain_Walk_08
+29 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500440 Green_Chain_Walk_09
+30 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13983953 Green_Chain_Walk_10
+31 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13983952 Green_Chain_Walk_11
+32 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500447 Green_Chain_Walk_01_link_01
+33 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500450 Green_Chain_Walk_01_link_02
+34 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500448 Green_Chain_Walk_01_link_03
+35 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500449 Green_Chain_Walk_01_link_04
+36 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12696155 Green_Chain_Walk_01_link_05
+37 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12724243 Green_Chain_Walk_02_app_01
+38 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500446 Green_Chain_Walk_02_app_02
+39 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12946621 Green_Chain_Walk_02_app_03
+40 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13833625 Green_Chain_Walk_04_01
+41 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13834025 Green_Chain_Walk_04_02
+42 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500444 Green_Chain_Walk_05_01
+43 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13833886 Green_Chain_Walk_05_02
+44 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500443 Green_Chain_Walk_06_01
+45 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11084469 Green_Chain_Walk_06_02
+46 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500442 Green_Chain_Walk_07_01
+47 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13836675 Green_Chain_Walk_08_01
+48 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13836682 Green_Chain_Walk_09_01
+49 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 13836763 Green_Chain_Walk_09_02
+50 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14500445 Green_Chain_Walk_11_01
+51 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12920636 Green_Chain_Walk_11_02
+52 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12920507 Green_Chain_Walk_11_03
+53 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14116192 Green_Chain_Walk_11_04
+54 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12931470 Green_Chain_Walk_11_05
+55 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16078700 Green_Chain_Walk_11_06
+#
 21 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3170152  Great_Trossachs_Path
 #
 40 20 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4077752  Gritstone_Trail_SR
@@ -603,13 +642,14 @@ MAILTO=ajtown
 53 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 5467045  Inishowen_Head_Loop
 54 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8450999  Inn_Way_Yorkshire_Moors
 55 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2092819  Irvine_Valley_Trail
-56 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1536493  Isaacs_Tea_Trail
-57 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1129666  Isle_of_Wight_Coastal_Path
-58 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 37308    Itchen_Way
-59 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3514189  Ivanhoe_Way
-00 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7853464  Jocks_Road
-01 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2083413  John_Buchan_Way
-02 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1772894  John_Bunyan_Trail
+56 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1668046  Irwell_Sculpture_Trail
+57 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1536493  Isaacs_Tea_Trail
+58 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1129666  Isle_of_Wight_Coastal_Path
+59 23 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 37308    Itchen_Way
+00 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3514189  Ivanhoe_Way
+01 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7853464  Jocks_Road
+02 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2083413  John_Buchan_Way
+03 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1772894  John_Bunyan_Trail
 #
 11 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 49215    John_Muir_Way
 12 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3586270  John_Muir_Link
@@ -649,8 +689,9 @@ MAILTO=ajtown
 39 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9474073  Lambourn_Valley_Way
 40 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 38386    Lancashire_Coastal_Way
 41 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10816296 Llwybr_y_Ffin_Landsker
-42 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1337853  Lark_Valley_Path
-43 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2921359  Lead_Mining_Trail 
+42 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16293871 Lady_Annes_Way
+43 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1337853  Lark_Valley_Path
+44 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2921359  Lead_Mining_Trail 
 #
 50 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16206    Lea_Valley_Walk_SR
 51 01 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14522352 Lea_Valley_Walk_London_01
@@ -814,9 +855,10 @@ MAILTO=ajtown
 #
 56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 77959    Norfolk_Coast_Path
 57 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1707659  North_Arden_Heritage_Trail
-58 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2471547  North_Berwyn_Way
-59 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12769806 North_Bucks_Way
-00 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 63113    North_Cheshire_Way
+58 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16161002 North_Bedfordshire_Heritage_Trail
+59 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2471547  North_Berwyn_Way
+00 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12769806 North_Bucks_Way
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 63113    North_Cheshire_Way
 #
 # See also 917969   UW_North_Down_Coastal_Path
 20 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2665201  North_Down_Coastal_Path_SR_and_ways
