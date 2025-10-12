@@ -177,6 +177,9 @@ MAILTO=ajtown
 21 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9661906  Sk2Cy_a
 22 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11246016 Sk2Cy_b
 #
+31 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15619058 Skeoghvosteen_Community_Loop_short
+32 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15619059 Skeoghvosteen_Community_Loop_long
+#
 30 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14421894 Skye_Trail_SR
 31 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19126302 Skye_Trail_01
 32 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19126301 Skye_Trail_02
@@ -281,9 +284,10 @@ MAILTO=ajtown
 51 18 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1953181  Sowe_Valley_Footpath
 #
 11 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 958842   Spa_Trail
-12 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1026251  Speyside_Way
-13 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1754431  Speyside Way_Tominoul_Spur
-14 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2313071  Spires_and_Steeples_Trail
+12 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1591086  Sperrins_Challenge_Walk
+13 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1026251  Speyside_Way
+14 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1754431  Speyside Way_Tominoul_Spur
+15 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2313071  Spires_and_Steeples_Trail
 #
 30 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1956970  Staffordshire_Way_SR
 31 19 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 86542    Staffordshire_Way_Rushton_Spencer-Cannock_Chase
@@ -301,12 +305,13 @@ MAILTO=ajtown
 32 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 358939   St_Edmund_Way
 33 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19393612 St_Frideswides_Way
 34 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1156074  St_Illtyds_Walk
-35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17684067 St_Michaels_Way
-36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16178575 St_Patricks_Way_The_Pilgrim_Walk
-37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
-38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
-39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
-40 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
+35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15764571 St_James_Way
+36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17684067 St_Michaels_Way
+37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16178575 St_Patricks_Way_The_Pilgrim_Walk
+38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
+39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
+40 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
+41 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
 #
 40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926907 Stour_Valley_Path_SR
 41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926906 Stour_Valley_Path_01
@@ -331,6 +336,7 @@ MAILTO=ajtown
 21 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 957011   Teesdale_Middleton
 22 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4097724  Teesdale_Dufton
 23 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4097745  Teesdale_Middlesbrough
+24 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926698 Teesdale_alt
 #
 41 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2050011  Tabular_Hills_Walk
 42 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3000677  Taff_Trail
@@ -570,6 +576,10 @@ MAILTO=ajtown
 10 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1254604   E9_SR
 11 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959386   E9_Great_Britain_alt
 12 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1959466   E9_GB_IOW_alt
+13 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16051055  E9_Two_Bays_Way
+14 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16051056  E9_Poole_Coast_Path
+15 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16051642  E9_Bournemouth_Coast_Path
+16 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16052471  E9_Christchurch_Bay_Way
 #
 30 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4139041  TPT_rwn_SR
 31 06 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2275550  TPT_rwn_Silkstone_Common_to_Wombwell
