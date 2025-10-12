@@ -89,6 +89,11 @@ MAILTO=ajtown
 #
 01 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8879     Ridgeway_nwn
 #
+# See also 1015851 for the UW Ring_of_Gullion_Way_SR_and_ways
+11 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17467417 Ring_of_Gullion_Way_01
+12 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17467483 Ring_of_Gullion_Way_02
+13 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17473331 Ring_of_Gullion_Way_03
+#
 21 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3015040  Ripon_Rowel
 22 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756630  River_Ayr_Way
 23 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1464656  River_Parrett_Trail
@@ -164,8 +169,9 @@ MAILTO=ajtown
 49 13 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2078989  Shropshire_Way_L11
 50 13 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7716304  Shropshire_Way_South
 #
-01 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7764220  Simon_Evans_Way
+01 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1748938  Siglloges_Loop
 02 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2164034  Silurian_Way
+03 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7764220  Simon_Evans_Way
 #
 20 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9486611  Sk2Cy_SR
 21 14 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9661906  Sk2Cy_a
@@ -477,15 +483,16 @@ MAILTO=ajtown
 24 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 86561    Weardale_Way
 25 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2389994  Weaver_Way_Cheshire
 26 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1427557  Weavers_Way_Norfolk
-27 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 319118   Wessex_Ridgeway
-28 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1828432  The_Western_Way_Galway
-29 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2974867  The_Western_Way_Mayo
-30 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14702810 Westmeath_Way
-31 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16287    West_Highland_Way
-32 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756633  West_Island_Way
-33 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 157485   West_Sussex_Literary_Trail
-34 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 336920   Wherrymans_Way
-35 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2264309  White_Horse_Trail
+27 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17549028 Platinum_Jubilee_Trails_The_Wendling_Way
+28 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 319118   Wessex_Ridgeway
+29 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1828432  The_Western_Way_Galway
+30 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2974867  The_Western_Way_Mayo
+31 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14702810 Westmeath_Way
+32 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16287    West_Highland_Way
+33 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756633  West_Island_Way
+34 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 157485   West_Sussex_Literary_Trail
+35 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 336920   Wherrymans_Way
+36 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2264309  White_Horse_Trail
 #
 51 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8489336  Whithorn_Way_a
 52 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8496757  Whithorn_Way_b
