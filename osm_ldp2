@@ -69,18 +69,23 @@ MAILTO=ajtown
 01 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8209296  Peak_Pilgrimage
 02 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11743021 A_Pennine_Journey
 03 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12026125 Pentland_Way
-04 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48379    Pilgrims_Trail
+04 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18138495 Pewsey_Vale_Circular_Walk
+05 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48379    Pilgrims_Trail
 #
-20 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706316  Poets_Trail_SR
-21 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706314  Poets_Trail_ONeill
-22 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706315  Poets_Trail_Urney
-23 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706312  Poets_Trail_Ballykeel
-24 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706313  Poets_Trail_Creggan
+20 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706316  Poets_Trail_SR_01
+21 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706314  Poets_Trail_Creggan_ONeill
+22 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1706315  Poets_Trail_Forkhill
 #
-41 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1628935  Rhymney_River_Circular
-42 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1650661  Rhymney_Valley_Ridgeway_Walk
-43 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 37549    Ribble_Way
-44 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16384915 Riccall_Round_Walk_2
+30 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17614040 Poets_Trail_SR_02
+31 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17572663 Poets_Trail_Ballykeel_Loop
+#
+32 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1810053  Purbeck_Way
+#
+41 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1864605  Reigate_and_Banstead_Millennium_Trail 
+42 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1628935  Rhymney_River_Circular
+43 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1650661  Rhymney_Valley_Ridgeway_Walk
+44 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 37549    Ribble_Way
+45 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16384915 Riccall_Round_Walk_2
 #
 01 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8879     Ridgeway_nwn
 #
@@ -106,6 +111,8 @@ MAILTO=ajtown
 41 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 360996   Saint_Cuthbert_West
 42 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4515120  Saint_Cuthbert_East
 43 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 10408203 Saint_Cuthbert_deviation
+#
+51 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18099477 St_Cuthberts_Three_Church_Trail 
 #
 01 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2382950  Saints_Way
 #
@@ -193,6 +200,8 @@ MAILTO=ajtown
 41 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 77976    South_Downs_Way_Hiking
 42 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5881     South_Downs_Way_Cycle
 43 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5321850  South_Downs_Way_Inland
+#
+51 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18071407 South_Glen_Shiel_Ridge
 #
 01 16 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 50325    Southern_Upland_Way_A
 02 16 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4737027  Southern_Upland_Way_B
@@ -286,10 +295,11 @@ MAILTO=ajtown
 32 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 358939   St_Edmund_Way
 33 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19393612 St_Frideswides_Way
 34 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1156074  St_Illtyds_Walk
-35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
-36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
-37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
-38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
+35 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17684067 St_Michaels_Way
+36 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 140533   St_Peters_Way
+37 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48741    St_Swithuns_Way
+38 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5637581  Stephen_Langton_Trail
+39 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9386926  Stone_Circles_Challenge
 #
 40 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926907 Stour_Valley_Path_SR
 41 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 15926906 Stour_Valley_Path_01
@@ -342,9 +352,11 @@ MAILTO=ajtown
 #
 58 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9480766  Thames_Path_northern_bank
 59 21 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 9477925  Thames_Path_alternate
-00 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3633503  Thomas_Muir_Trail
-01 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 399667   Three_Castles_Path
-02 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7244316  Three_Castles_Walk_Monmouthshire
+00 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18039452 The_Angels_Way 
+01 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1795515  The_Roman_Way 
+02 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3633503  Thomas_Muir_Trail
+03 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 399667   Three_Castles_Path
+04 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7244316  Three_Castles_Walk_Monmouthshire
 #
 # One loop (with SR):
 20 22 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 112661   Three_Choirs_Way_SR
@@ -448,8 +460,9 @@ MAILTO=ajtown
 #
 41 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7676     Wandle_Trail
 42 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6581679  Waterfall_Loop
-43 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19427867 Watership_Down_Trail
-44 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7479897  Wats_Dyke_Way
+43 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17739040 Waterfall_Way
+44 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19427867 Watership_Down_Trail
+45 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7479897  Wats_Dyke_Way
 #
 01 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11597074 Way_of_Learning
 02 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11545216 Way_of_Life_Gainford_to_Escomb

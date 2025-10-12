@@ -158,6 +158,7 @@ MAILTO=ajtown
 02 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3471434  Bernwood_Jubilee_Way
 03 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7016887  Berwickshire_Coastal_Path
 04 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14279566 Binnianea_Loop
+05 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 18583049 Black_Country_Canal_The_Dudley_Stourbridge_Ring
 #
 10 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14702739 Blackwater_SR
 11 12 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1741318  Blackwater_Avondhu_Way
@@ -219,7 +220,13 @@ MAILTO=ajtown
 28 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6143526  Capital_Ring_Section_08
 29 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6143527  Capital_Ring_Section_09
 30 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6473820  Capital_Ring_Section_10
-31 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6473828  Capital_Ring_Section_11
+#
+40 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17648142 Capital_Ring_Section_11_SR
+41 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6473828  Capital_Ring_Section_11
+42 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17648131 Capital_Ring_Section_11_alt
+43 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12568270 Capital_Ring_Section_11_link_to_Hendon_Central_underground_station
+44 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12605333 Capital_Ring_Section_11_link_to_Highgate_underground_station
+#
 32 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6474994  Capital_Ring_Section_12
 33 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6490278  Capital_Ring_Section_13
 34 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6490317  Capital_Ring_Section_14
@@ -246,8 +253,6 @@ MAILTO=ajtown
 55 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12664483 Capital_Ring_link_to_Northwick_Park_tube_station
 56 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12664554 Capital_Ring_link_to_Wembley_Park_underground_station
 57 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12664630 Capital_Ring_link_to_Hendon_station
-58 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12568270 Capital_Ring_link_to_Hendon_Central_underground_station
-59 13 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12605333 Capital_Ring_link_to_Highgate_underground_station
 00 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12660112 Capital_Ring_link_to_Crouch_Hill_station
 01 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12661372 Capital_Ring_link_to_Finsbury_Park_station
 02 14 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10540112 Capital_Ring_section_12_-_alternative
@@ -311,6 +316,7 @@ MAILTO=ajtown
 44 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2538845  Colne_Valley_Way
 #
 45 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19215390 Columban_Way_IE
+46 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 18544819 Connswater_Community_Greenway
 #
 45 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6164699  Cornwall_Mineral_Tramways
 46 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7604258  Corvedale_Three_Castles_Walk
@@ -677,7 +683,12 @@ MAILTO=ajtown
 30 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4601     London_LOOP_SR
 31 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3307045  London_LOOP_01
 32 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3308902  London_LOOP_02
-33 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3551336  London_LOOP_03
+#
+40 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17698074 London_LOOP_03_SR
+41 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3551336  London_LOOP_03_main
+42 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10664175 London_LOOP_03_link_Petts
+43 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10664327 London_LOOP_03_link_HayesHarlington
+#
 34 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3551378  London_LOOP_04
 35 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3599126  London_LOOP_05
 36 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3599127  London_LOOP_06
@@ -702,8 +713,6 @@ MAILTO=ajtown
 55 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12665893  London_LOOP_Erith
 56 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12665933  London_LOOP_Slade
 57 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12669872  London_LOOP_Crayford
-58 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10664175  London_LOOP_Petts
-59 02 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10664327  London_LOOP_HayesHarlington
 00 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10667970  London_LOOP_Whyteleafe
 01 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10668001  London_LOOP_Banstead
 02 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10671234  London_LOOP_Ewell
@@ -770,7 +779,10 @@ MAILTO=ajtown
 47 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1754599  Moray_Coast_Trail
 48 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 85905    Mortimer_Trail
 49 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1599869  Mourne_Wall_Challenge
+#
 50 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2176213  Muckross_Lake_Walk
+51 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17963684 Muckross_Lake_Walk_alt
+#
 51 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3086692  Mull_of_Galloway_Trail
 52 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2999275  Multeen_Way
 53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2187248  Nar_Valley_Way
@@ -783,11 +795,12 @@ MAILTO=ajtown
 # See also 15481627 UW_Newry_Canal_Way
 53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1015887  Newry_Canal_Way
 #
-54 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 302080   Nidderdale_Way
+54 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17636937 Newtonabbey_Way
+55 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 302080   Nidderdale_Way
 #
 # No Nore Valley Way Superroute
-55 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 15619107 Nore_Valley_Way_01
-56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1866848  Nore_Valley_Way_02
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 15619107 Nore_Valley_Way_01
+02 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1866848  Nore_Valley_Way_02
 #
 56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 77959    Norfolk_Coast_Path
 57 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1707659  North_Arden_Heritage_Trail
@@ -821,6 +834,7 @@ MAILTO=ajtown
 46 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9649     Offas_Dyke_Path
 47 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 455204   Old_Sarum_Way
 48 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3720599  Orange_Way
+49 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1837262  Otter_Valley_Walk 
 #
 50 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 165638   Ouse_Valley_Way_SR
 51 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788802 Ouse_Valley_Way_R1
