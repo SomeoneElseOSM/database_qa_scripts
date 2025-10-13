@@ -82,10 +82,12 @@ MAILTO=ajtown
 32 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1810053  Purbeck_Way
 #
 41 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1864605  Reigate_and_Banstead_Millennium_Trail 
-42 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1628935  Rhymney_River_Circular
-43 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1650661  Rhymney_Valley_Ridgeway_Walk
-44 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 37549    Ribble_Way
-45 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16384915 Riccall_Round_Walk_2
+42 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14724584 Rerrin_Loop
+43 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1628935  Rhymney_River_Circular
+44 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1650661  Rhymney_Valley_Ridgeway_Walk
+45 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14609240 The_Ribble_Valley_Jubilee_Trail
+46 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 37549    Ribble_Way
+47 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16384915 Riccall_Round_Walk_2
 #
 01 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8879     Ridgeway_nwn
 #
@@ -120,6 +122,7 @@ MAILTO=ajtown
 51 11 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18099477 St_Cuthberts_Three_Church_Trail 
 #
 01 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2382950  Saints_Way
+02 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1464584  Samaritans_Way_South_West
 #
 21 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2663     Sandlings_Walk
 22 12 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1774298  Sandlings_Walk_Heath_Road_route
