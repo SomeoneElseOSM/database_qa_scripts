@@ -27,6 +27,146 @@ MAILTO=ajtown
 # First, walking routes.
 # ------------------------------------------------------------------------------
 #
+44 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1149730  Macmillan_Way
+45 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3131984  Macmillan_Way_West
+46 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 77161    Maelor_Way
+47 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1069850  Manifold_Trail
+48 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2401591  Manifold_Valley_Circular_Walk
+49 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2507052  Mardyke_walk
+50 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1589562  Marriotts_Way
+51 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3902669  Mary_Michael_Pilgrims_Way
+52 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2389513  Mary_Queen_of_Scots_Way
+53 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 241091   Mary_Towneley_Loop
+54 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 164970   Medlock_Valley_Way
+55 03 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 536582   Medway_Valley_Walk
+#
+11 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4740487  The_Mendip_Trail
+12 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6755802  West_Mendip_Way
+13 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7256101  East_Mendip_Way
+#
+31 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 112695   Midshires_Way
+32 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12323408 Mid_Clare_Way
+33 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1722862  Mid_Suffolk_Footpath
+34 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2701870  Mid_Sussex_Link 
+35 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3343338  Mid_Wilts_Way
+36 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2230610  Millennium_Way_IOM
+37 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1518176  Millennium_Way_Warks
+38 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 370674   Millennium_Way_York
+39 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 15093867 Milton_Keynes_Boundary_Walk
+40 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2885025  Miners_Way_Historical_Trail
+41 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4677070  Miners_Way
+42 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1870230  Minffordd_Path
+43 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1903816  Minster_Way
+44 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1836303  Mole_Gap_Trail
+45 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12228273 Monaghan_Way
+46 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20611    Monarchs_Way
+47 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4240662  Monmouth_Rebellion_Walk
+48 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7507181  Monnow_Valley_Walk
+49 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1754599  Moray_Coast_Trail
+50 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 85905    Mortimer_Trail
+#
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14755483 Mount_Hillary_Father_Murphy_Loop 
+02 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14765490 Mount_Hillary_Knightfield_Loop 
+03 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14765526 Mount_Hillary_Mount_Hillary_Loop 
+#
+51 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 15270845 Mountain_Grove_Loop 
+52 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1599869  Mourne_Wall_Challenge
+#
+50 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2176213  Muckross_Lake_Walk
+51 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17963684 Muckross_Lake_Walk_alt
+#
+51 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3086692  Mull_of_Galloway_Trail
+#
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14769972 Mullaghareirk_Banane_Loop 
+02 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14769992 Mullaghareirk_Brosneen_Loop
+03 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14770018 Mullaghareirk_Reanahown_Loop
+04 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14765538 Mullaghareirk_Rowls_Langford_Loop
+#
+53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2999275  Multeen_Way
+#
+54 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2187248  Nar_Valley_Way
+55 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12204775 National_Famine_Way
+56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3748275  National_Forest_Way
+57 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 85093    Nene_Way
+58 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10929271 Nev_Cole_Way
+59 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1718871  Newcastle_Way_Staffs
+00 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1142625  Newcastle_Way_IE
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1970762  New_River_Path
+#
+# See also 15481627 UW_Newry_Canal_Way
+53 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1015887  Newry_Canal_Way
+#
+54 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 17636937 Newtonabbey_Way
+55 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 302080   Nidderdale_Way
+#
+# No Nore Valley Way Superroute
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 15619107 Nore_Valley_Way_01
+02 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1866848  Nore_Valley_Way_02
+#
+56 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 77959    Norfolk_Coast_Path
+57 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1707659  North_Arden_Heritage_Trail
+58 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16161002 North_Bedfordshire_Heritage_Trail
+59 04 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2471547  North_Berwyn_Way
+00 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 12769806 North_Bucks_Way
+#
+01 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 63113    North_Cheshire_Way
+02 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 131403   North_Cheshire_Way_Chester_Spur
+#
+# See also 917969   UW_North_Down_Coastal_Path
+20 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2665201  North_Down_Coastal_Path_SR_and_ways
+#
+40 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1957071  North_Downs_Way_SR
+41 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1957110  North_Downs_Way_Western
+42 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8127     North_Downs_Way_Eastern
+43 05 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4078375  North_Downs_Way_Canterbury
+#
+01 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6883538  North_Esk_Way
+02 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7853466  South_Esk_Trail
+03 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1726838  North_Kerry_Way
+#
+20 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1956134  North_Sea_Trail_SR
+21 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11573745 North_Sea_Trail_England
+#
+# See also 1160116  UW_North_Sperrins_Way
+30 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2665246  North_Sperrins_SR_and_ways
+#
+41 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11508166 Northumberland_Coast_Path
+42 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 398069   North_Wales_Path
+43 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1729321  North_Worcestershire_Path
+44 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6148106  Notts_Wolds_Way 
+#
+51 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14722498 OBriensbridge_Errinagh_Bridge_Loop
+52 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14723254 OBriensbridge_Old_Barge_Loop
+53 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 14722459 OBriensbridge_Parteen_Weir_Loop
+#
+45 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4112772  The_Offaly_Way
+46 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9649     Offas_Dyke_Path
+47 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 455204   Old_Sarum_Way
+48 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3720599  Orange_Way
+49 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1837262  Otter_Valley_Walk 
+#
+50 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 165638   Ouse_Valley_Way_SR
+51 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788802 Ouse_Valley_Way_R1
+52 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788801 Ouse_Valley_Way_R2
+53 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788800 Ouse_Valley_Way_R3
+54 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 16788799 Ouse_Valley_Way_R4
+#
+49 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8271588  Outer_Aylesbury_Ring
+50 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 71493    Oxford_Canal_Walk
+51 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 66774    Oxford_Greenbelt_Way
+52 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 68685    Oxfordshire_Way
+53 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7144432  Palladian_Way
+54 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1537792  Paston_Way
+55 06 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3853488  Pathfinder_Way
+#
+#
+10 07 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4078215  Peak_Forest_Canal_Towpath_SR
+11 07 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4078210  Peak_Forest_Canal_Towpath
+#
+31 07 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 77958    Peddars_Way
+32 07 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10523714 Pendle_Way
+#
+51 07 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 10210154 Penistone_Boundary_Walk
 #
 11 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 50288    Pennine_Bridleway
 12 08 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4164687  PB_Interim_Walkers
@@ -212,6 +352,7 @@ MAILTO=ajtown
 04 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4004198  Snowdon_Watkin_Path
 05 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4004199  Snowdon_Rhyd_Ddu_Path
 06 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 4004200  Snowdon_Ranger_Path
+07 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11114801 Snowdonia_Slate_Trail
 #
 21 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8271587  South_Bucks_Way
 22 15 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48181    South_Cheshire_Way
@@ -488,11 +629,12 @@ MAILTO=ajtown
 28 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 3285170  Wales_Coast_Path_Cardiff_Newport_area
 29 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2448117  Wales_Coast_Path_Meirionnydd
 #
-41 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7676     Wandle_Trail
-42 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6581679  Waterfall_Loop
-43 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17739040 Waterfall_Way
-44 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19427867 Watership_Down_Trail
-45 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7479897  Wats_Dyke_Way
+41 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12303188 Walsingham_Way
+42 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7676     Wandle_Trail
+43 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6581679  Waterfall_Loop
+44 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 17739040 Waterfall_Way
+45 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19427867 Watership_Down_Trail
+46 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 7479897  Wats_Dyke_Way
 #
 01 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11597074 Way_of_Learning
 02 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11545216 Way_of_Life_Gainford_to_Escomb
@@ -512,11 +654,13 @@ MAILTO=ajtown
 29 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1828432  The_Western_Way_Galway
 30 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2974867  The_Western_Way_Mayo
 31 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14702810 Westmeath_Way
-32 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16287    West_Highland_Way
-33 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756633  West_Island_Way
-34 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 157485   West_Sussex_Literary_Trail
-35 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 336920   Wherrymans_Way
-36 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2264309  White_Horse_Trail
+32 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11679758 West_Fife_Woodlands_Way
+33 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16287    West_Highland_Way
+34 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756633  West_Island_Way
+35 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 157485   West_Sussex_Literary_Trail
+36 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1120290  Wey_South_Path 
+37 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 336920   Wherrymans_Way
+38 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2264309  White_Horse_Trail
 #
 51 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8489336  Whithorn_Way_a
 52 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8496757  Whithorn_Way_b
