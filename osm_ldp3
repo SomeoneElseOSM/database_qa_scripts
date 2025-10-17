@@ -269,10 +269,7 @@ MAILTO=ajtown
 15 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 14611905 NCN4_1L
 16 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 14611351 NCN4_1A
 #
-# English NCN5 superrelations:
-20 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284290 NCN5_SR1
-21 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 123318   NCN5_SR2
-# English NCN5 constituents, in current order:
+21 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 123318   NCN5_SR
 22 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 359098   NCN5_R01
 23 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284288 NCN5_R02
 24 15 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 19284285 NCN5_R03
