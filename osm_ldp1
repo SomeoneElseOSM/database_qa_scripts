@@ -354,7 +354,12 @@ MAILTO=ajtown
 55 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 52874    Crewe_and_Nantwich_Circular_Walk
 56 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6997300  Croagh_Patrick_Heritage_Trail
 57 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1462392  Cromford_Canal
-58 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6735977  Cross_Borders_Drove_Road
+#
+00 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 6735977  Cross_Borders_Drove_Road_SR
+01 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19763990 Cross_Borders_Drove_Road_01
+02 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19763991 Cross_Borders_Drove_Road_02
+03 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 19763992 Cross_Borders_Drove_Road_03
+#
 59 16 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 68723    Cross_Bucks_Way
 00 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 934892   Cross_Cotswold_Pathway
 01 17 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 9424099  Cuddys_Corse
