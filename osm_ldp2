@@ -213,7 +213,12 @@ MAILTO=ajtown
 #
 01 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 8209296  Peak_Pilgrimage
 02 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11743021 A_Pennine_Journey
-03 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12026125 Pentland_Way
+#
+10 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12026125 Pentland_Way SR
+11 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19763742 Pentland_Way 01
+12 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19763741 Pentland_Way 02
+13 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19763740 Pentland_Way 03
+#
 04 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 18138495 Pewsey_Vale_Circular_Walk
 05 10 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 48379    Pilgrims_Trail
 #
@@ -655,7 +660,17 @@ MAILTO=ajtown
 30 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 2974867  The_Western_Way_Mayo
 31 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 14702810 Westmeath_Way
 32 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11679758 West_Fife_Woodlands_Way
-33 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16287    West_Highland_Way
+#
+40 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 16287    West_Highland_Way_SR
+41 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772649 West_Highland_Way_Milngavie
+42 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772650 West_Highland_Way_Drymen
+43 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772651 West_Highland_Way_Rowardennan
+44 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772652 West_Highland_Way_Inverarnan
+45 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772653 West_Highland_Way_Tyndrum
+46 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772654 West_Highland_Way_Inveroran
+47 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772655 West_Highland_Way_Kingshouse
+48 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19772656 West_Highland_Way_Kinlochleven_FW
+#
 34 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1756633  West_Island_Way
 35 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 157485   West_Sussex_Literary_Trail
 36 03 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1120290  Wey_South_Path 
