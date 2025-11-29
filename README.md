@@ -40,6 +40,8 @@ A "missing" area probably means that someone has broken the geometry so that it 
 
 These are typically non-admin boundaries that may get broken by accident (many follow other features) that because there's no other QA may not get otherwise fixed.  Admin boundaries are regularly monitored and fixed (worldwide) by other mappers.
 
+Most just send output to stdout (so when run from cron go wherever root mail goes).  The exception is "count_townlands_id.sh".  That sends mail to a "townlands" alias on the server, which expands to the actual recipients.
+
 ## Linear feature checking
 
 The script "count_generic.sh" counts the number of pieces of a linear feature (such as a long distance walking route) and compares with a previous value.  An increase in the number of pieces may just be the result of more detailed mapping, or someone may have create a gap by mistake.
