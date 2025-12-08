@@ -458,7 +458,7 @@ MAILTO=ajtown
 13 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 12934    Stevenage_STOOP_Link_6
 14 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 11475    Stevenage_STOOP_Link_7
 #
-31 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 6950474  St_Bernards_Way
+31 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19918287 St_Bernards_Way
 32 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 358939   St_Edmund_Way
 33 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 19393612 St_Frideswides_Way
 34 20 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1156074  St_Illtyds_Walk
