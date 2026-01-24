@@ -694,8 +694,19 @@ MAILTO=ajtown
 02 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 2083413  John_Buchan_Way
 03 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 1772894  John_Bunyan_Trail
 #
-11 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 49215    John_Muir_Way
-12 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3586270  John_Muir_Link
+10 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 49215    John_Muir_Way_SR
+11 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115727 John_Muir_Way_Helensburgh 
+12 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115730 John_Muir_Way_Balloch 
+13 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115731 John_Muir_Way_Strathblane 
+14 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115732 John_Muir_Way_Croy 
+15 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115733 John_Muir_Way_Falkirk 
+16 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115734 John_Muir_Way_Linlithgow 
+17 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115737 John_Muir_Way_South_Queensferry 
+18 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115738 John_Muir_Way_Edinburgh 
+19 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115739 John_Muir_Way_Prestonpans 
+20 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20115740 John_Muir_Way_North_Berwick 
+#
+21 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 3586270  John_Muir_Link
 #
 31 00 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 103077   John_Musgrave_Heritage_Trail
 #
