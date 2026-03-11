@@ -626,7 +626,12 @@ MAILTO=ajtown
 20 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1820890  Wales_Coast_Path_SR
 21 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 5480036  Wales_Coast_Path_Alternative
 22 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1820886  Wales_Coast_Path_Llyn_Coastal_Path
-23 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 77964    Wales_Coast_Path_Pembrokeshire_Coast_Path
+#
+30 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 77964    Wales_CP_Pembrokeshire_CP SR
+31 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20279882 Wales_CP_Pembrokeshire_CP_Main
+32 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20279883 Wales_CP_Pembrokeshire_CP_Alt_Castlemartin
+33 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 20279884 Wales_CP_Pembrokeshire_CP_Alt_Gann
+#
 24 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1806040  Wales_Coast_Path_Ceredigion_Coast_Path
 25 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 1820963  Wales_Coast_Path_link_St_Dogmaels-Cardigan
 26 02 3,6,9,12,15,18,21,24,27,30 * * root /usr/local/sbin/count_generic.sh 374890   Wales_Coast_Path_Isle_of_Anglesey_Coastal_Path
