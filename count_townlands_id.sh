@@ -20,6 +20,8 @@
 # 29/11/2025 17:11:
 # Amended script to send output to a local alias "townlands" rather then just
 # relying on cron output.  The "townlands" alias in /etc/aliases will receive mail.
+#
+# Designed to be run from root.
 # -----------------------------------------------------------------------------
 local_filesystem_user=ajtown
 local_renderd_user=_renderd

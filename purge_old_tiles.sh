@@ -49,6 +49,8 @@ find /var/cache/renderd/tiles/ajt -type f ! -newermt `date +%Y%m%d --date="243 m
 #
 # High zoom tiles are deleted by render_expired so no need to process here.
 # Low zoom tiles aren't dirtied; just check for files over 6 months old.
+#
+# Designed to be run from _renderd
 # ----------------------------------------------------------------------------
 find /var/cache/renderd/tiles/ajt/12 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print 2>/dev/null
 find /var/cache/renderd/tiles/ajt/11 -type f ! -newermt `date +%Y%m%d --date="6 month ago"` -exec rm {} \; -print 2>/dev/null

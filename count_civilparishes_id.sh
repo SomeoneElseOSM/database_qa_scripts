@@ -16,6 +16,8 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# Designed to be run from root.
 # -----------------------------------------------------------------------------
 local_filesystem_user=ajtown
 local_renderd_user=_renderd

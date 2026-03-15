@@ -18,6 +18,8 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# Designed to be run from _renderd
 # ----------------------------------------------------------------------------
 local_filesystem_user=renderaccount
 /home/${local_filesystem_user}/src/render_list_geo.pl/render_list_geo.pl -n 1 -z 3 -Z 12 -x -9.5 -X 2.72 -y 49.39 -Y 61.26 -m ajt
