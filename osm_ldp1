@@ -666,7 +666,26 @@ MAILTO=ajtown
 #13 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 4102051  Hereward_Way_Whittlesey
 #
 31 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 11229078 Herriot_Way
-32 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 305544   Hertfordshire_Chain_Walk
+#
+40 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 305544   Hertfordshire_Chain_SR
+41 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674341 Hertfordshire_Chain_01
+42 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674340 Hertfordshire_Chain_02
+43 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674339 Hertfordshire_Chain_03
+44 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674338 Hertfordshire_Chain_04
+45 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674337 Hertfordshire_Chain_05
+46 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674336 Hertfordshire_Chain_06
+47 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674335 Hertfordshire_Chain_07
+48 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674334 Hertfordshire_Chain_08
+49 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674333 Hertfordshire_Chain_09
+50 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674332 Hertfordshire_Chain_10
+51 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674331 Hertfordshire_Chain_11
+52 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674330 Hertfordshire_Chain_12
+53 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674329 Hertfordshire_Chain_13
+54 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674328 Hertfordshire_Chain_14
+55 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674327 Hertfordshire_Chain_15
+56 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674326 Hertfordshire_Chain_L1
+57 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 20674325 Hertfordshire_Chain_L2
+#
 33 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 8842     Hertfordshire_Way
 34 22 2,5,8,11,14,17,20,23,26,29 * * root /usr/local/sbin/count_generic.sh 7063875  High_Hunsley_Circuit
 #
