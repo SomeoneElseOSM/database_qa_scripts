@@ -608,7 +608,8 @@ MAILTO=ajtown
 51 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 84177    NCN277_R
 52 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 8496519  NCN278_R
 #
-53 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 21018    NCN288_R1
+# R1 appears to have been merged into R2
+#53 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 21018    NCN288_R1
 54 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 21902    NCN288_R2
 #
 55 07 1,4,7,10,13,16,19,22,25,28,31 * * root /usr/local/sbin/count_generic.sh 1848829  NCN305_R
